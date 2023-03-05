@@ -1,0 +1,33 @@
+/* CSS HEX */
+
+
+/*--straw: #d6bd91;
+--blue-dianne: #1c4c56;
+--cement: #8e7e64;
+--gulf-stream: #89bbbb;
+--smalt-blue: #518f99;
+--calypso: #2a7589;
+--bali-hai: #83a7b6;
+--bunker: #0d1516;
+--black-marlin: #3a2f18;
+--pumpkin-skin: #b4640c;
+
+*/
+
+
+/* SCSS RGB */
+
+
+/*
+--straw: rgba(214,189,145,1);
+--blue-dianne: rgba(28,76,86,1);
+--cement: rgba(142,126,100,1);
+--gulf-stream: rgba(137,187,187,1);
+--smalt-blue: rgba(81,143,153,1);
+--calypso: rgba(42,117,137,1);
+--bali-hai: rgba(131,167,182,1);
+--bunker: rgba(13,21,22,1);
+--black-marlin: rgba(58,47,24,1);
+--pumpkin-skin: rgba(180,100,12,1);
+
+*/
