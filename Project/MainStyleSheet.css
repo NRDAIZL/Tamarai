@@ -8,7 +8,7 @@ body
   width: 850px;
   height: 400px;
   background: #518f99;
-  padding: 8% 0 0;
+  padding: 20px;
   margin-top: 70px;
   margin-left: 250px;
   border-radius: 15px;
@@ -20,7 +20,7 @@ body
   width: 370px;
   height: 400px;
   background: #83a7b6;
-  padding: 8% 0 0;
+  padding: 20px;
   margin-top: 70px;
   margin-left: 750px;
   border-radius: 4px;
@@ -34,6 +34,7 @@ h2
     font-size: 60px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 130px;
+    padding: 10px;
     
 }
 .wordings
@@ -46,10 +47,12 @@ h2
 {
     color: white;
     margin-left: 150px;
+    padding: 10px;
 }
 .bets
 {
     color: white;
+    padding: 10px;
     margin-left: 210px;
 }
 
