@@ -5,13 +5,51 @@ body
 
 .loginz
 {
-  width: 600px;
+  width: 850px;
   height: 400px;
   background: #518f99;
   padding: 8% 0 0;
   margin-top: 70px;
-  margin-left: 400px;
+  margin-left: 250px;
   border-radius: 15px;
   border: solid #518f99 ;
+  position: absolute;
+}
+.Registerz
+{
+  width: 370px;
+  height: 400px;
+  background: #83a7b6;
+  padding: 8% 0 0;
+  margin-top: 70px;
+  margin-left: 750px;
+  border-radius: 4px;
+  border: solid #83a7b6 ;
+  position: absolute;
+}
+
+h2
+{
+    color: white;
+    font-size: 60px;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 130px;
+    
+}
+.wordings
+{
+    color: white;
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+    margin-left: 174px;
+}
+.boxer
+{
+    color: white;
+    margin-left: 150px;
+}
+.bets
+{
+    color: white;
+    margin-left: 210px;
 }
 
