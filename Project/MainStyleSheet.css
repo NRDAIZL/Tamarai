@@ -3,7 +3,7 @@ body
     background-color:#d6bd91 ;
 }
 
-.loginz
+.login
 {
   width: 850px;
   height: 400px;
@@ -15,7 +15,7 @@ body
   border: solid #518f99 ;
   position: absolute;
 }
-.Registerz
+.Register
 {
   width: 370px;
   height: 400px;
@@ -43,13 +43,13 @@ h2
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 174px;
 }
-.boxer
+.box
 {
     color: white;
     margin-left: 150px;
     padding: 10px;
 }
-.bets
+.buttonin
 {
     color: white;
     padding: 10px;
