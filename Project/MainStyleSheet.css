@@ -24,7 +24,7 @@ body
   padding: 20px;
   margin-top: 50px;
   margin-left: 750px;
-  border-radius: 4px;
+  border-radius: 15px;
   border: solid #83a7b6 ;
   position: absolute;
 }
@@ -34,7 +34,7 @@ h2
     color: white;
     font-size: 30px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 50px;
+    margin-left: 18%;
     padding: 10px;
     
 }
@@ -42,13 +42,16 @@ h2
 {
     color: white;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
-    margin-left: 174px;
+    margin-left: 15%;
+    margin-bottom: 10px;
 }
 .box
 {
     color: white;
     margin-left: 150px;
+    margin-bottom: 50px;
     padding: 10px;
+    
 }
 .buttonin
 {
@@ -58,6 +61,9 @@ h2
 }
 .iconstoo
 {
+    
+    margin-left: 75px;
+    margin-bottom: 25px;
     width: 50px;
     height: 50px;
 }
