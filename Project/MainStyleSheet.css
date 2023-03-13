@@ -8,31 +8,30 @@ body
 {
   width: 850px;
   height: 500px;
-  background: #518f99;
+  background: #89bbbb;
   padding: 20px;
   margin-top: 50px;
   margin-left: 250px;
-  border-radius: 15px;
-  border: solid #518f99 ;
+  border-radius: 7px;
+  border: solid #89bbbb ;
   position: absolute;
 }
 .Register
 {
   width: 370px;
   height: 500px;
-  background: #83a7b6;
+  background: #1c4c56;
   padding: 20px;
   margin-top: 50px;
   margin-left: 750px;
-  border-radius: 15px;
-  border: solid #83a7b6 ;
+  border-radius: 7px;
+  border: solid #1c4c56 ;
   position: absolute;
 }
 
 h2
 {
     color: white;
-    
     font-size: 30px;
     font-family:Verdana, Geneva, Tahoma, sans-serif;
     margin-left: 18%;
@@ -57,11 +56,30 @@ h2
     padding: 10px;
 
 }
-.iconstoo
+.icons
 {
-    
+    width: 70%;
+    overflow: hidden;
     margin-left: 75px;
+    padding: 2%;
+    word-spacing: 40px;
     margin-bottom: 25px;
-    width: 50px;
-    height: 50px;
 }
+.icons a
+{
+    float: left;
+    text-align: center;
+    padding: 7px;
+    color: white;
+    text-decoration: solid;
+    font-size: 15px;
+}
+.icons a:hover 
+{
+    background-color: #1c4c56;
+}
+.active
+{
+    background-color: #1c4c56;
+}
+ 
