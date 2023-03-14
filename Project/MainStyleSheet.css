@@ -1,9 +1,8 @@
 body
 {
-    background-color:#ffffff ;
-    
+    background-color:#ffffff ;  
 }
-
+/* 
 .login
 {
   width: 850px;
@@ -50,12 +49,7 @@ h2
     color: white;
     size: 90px;
 }
-.buttonin
-{
-    color: white;
-    padding: 10px;
 
-}
 .icons
 {
     width: 70%;
@@ -73,14 +67,17 @@ h2
     color: white;
     text-decoration: solid;
     font-size: 15px;
-}
-.icons a:hover 
+} */
+/* .button
 {
-    
-}
-.active
-{
-    
-}
-
- 
+    background-color: #1c4c56;
+    border: none;
+    color: #1c4c56;
+    padding: 10px 20px;
+    text-align: center;
+    text-decoration: none;
+    display: inline-block;
+    margin: 4px 2px;
+    cursor: pointer;
+    border-radius: 16px;
+} */
