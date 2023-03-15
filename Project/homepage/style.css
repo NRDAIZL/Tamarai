@@ -1,8 +1,15 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@100&display=swap');
+
 
 /* .container{
     display :flex;
 } */
 
+*{
+    font-family: 'poppins',sans-serif;
+    font-family: 'Roboto',sans-serif;
+    font-family: 'Ubuntu',sans-serif;
+}
 body {
     /* background-color: rgb(15, 15, 103); */
     width: 100%;
