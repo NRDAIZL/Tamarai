@@ -11,7 +11,7 @@
     font-family: 'Ubuntu', sans-serif;
     margin: 0;
     padding: 0;
-    color: #e99dc4;
+    color: #ef429b;
     transition: all ease 0.3s;
     -webkit-transition: all ease 0.3s;
     -moz-transition: all ease 0.3s;
@@ -34,9 +34,9 @@ button:hover {
 }
 
 :root {
-    --color1: ##fff;
-    --border: #e99dc4;
-    --bg-btn: #e99dc4;
+    --color1: ##F7C8E0;
+    --border: #ef429b;
+    --bg-btn: #ef429b;
 }
 
 /* Global classes */
@@ -103,7 +103,7 @@ nav {
 .input_search {
     border-radius: 20px;
     padding:  5px;
-    border: 1px solid #e99dc4;
+    border: 1px solid #ef429b;
     max-width: 500px;
     background: #fff;
     -webkit-border-radius: 20px;
@@ -125,8 +125,8 @@ nav {
 }
 
 .nav_li ul {
-    padding: 1px;
-    margin: 1px;
+    padding: 3px;
+    margin: 3px;
     width: 100%;
     min-width: 500px;
     display: none;
@@ -163,13 +163,19 @@ nav {
     padding: 5px;
     font-size: 18px;
     padding-right:3px;
-    border-style: none;
-    background: transparent;
-    color: #e99dc4;
-
+    outline:none;
+    border: 2px solid #ef429b;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #ef429b;
+    background: #DFFFD8;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 .nav_logo{
-    padding-left: 70px;
+    padding-left: 100px;
 }
 
 /* navbar */
@@ -184,9 +190,9 @@ nav {
 }
 
 .banner{
-    margin: 90px;
+    margin: 100px;
     display: flex;
-    margin-top:80px ;
+    margin-top:100px ;
 }
 .left-col,.right-col{
 flex-basis: 50%;
@@ -202,5 +208,24 @@ flex-basis: 50%;
 }
 span{
 color: #95BDFF;
+}
+.left-col p{
+    font-size: 17px;
+    color:#244a86;
+    margin: 50px 0;
+}
+.btn button{
+    padding: 10px 40px;
+    margin-right: 30px;
+    outline:none;
+    border: 2px solid #ef429b;
+    border-radius: 20px;
+    cursor: pointer;
+    color: #ef429b;
+    background: #DFFFD8;
+    -webkit-border-radius: 20px;
+    -moz-border-radius: 20px;
+    -ms-border-radius: 20px;
+    -o-border-radius: 20px;
 }
 /* home */
