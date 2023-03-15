@@ -7,3 +7,10 @@ function ShowPassword() {
     }
   }
 //onclick="ShowPassword()" f tag el button
+function validateForm() {
+  let x = document.forms["former"]["user"].value;
+  if (x == "") {
+    alert("Username must be filled out");
+    return false;
+  }
+}
