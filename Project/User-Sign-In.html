@@ -10,9 +10,6 @@
     </head>
 
     <body>
-        <!-- <form action="action_page.php" method="post">
-          
-          </form> -->
         <div>
             <div class ="Ulogin">
                     <div class = "Ulogger">
@@ -24,14 +21,18 @@
                         </div>
                         <div class = "wordings">log into your account:</div>
                     </div>
-                    <div class = "Ubox">
-                        <input type="text" placeholder="username"  /> <br>
+                    <form name="former" action="/action_page.php" onsubmit="return validateForm()" method="post">
+                        <div class = "Ubox">
+                        <input type="text" name = "user" placeholder="username" /> <br>
                         <input type="password" placeholder="password" /> <br>
                         <a href="#"><label >fogrot your password?</label></a>
-                    </div>    
-                    <div class = "Usbutton">
-                        <button >Sign in</button>
+
+                        <div class = "USbutton">
+                        <button>Sign in</button>
+                        </div>
                     </div>
+                    </form>
+                    
             </div>
             <div class ="URegbk">
                 <h2>Welcome Aboard!</h2>
