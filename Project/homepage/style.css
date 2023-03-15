@@ -151,8 +151,8 @@ nav {
     font-size: 18px;
     display: inline-flex;
     background: #DFFFD8;
-    width: 35px;
-    height: 35px;
+    width: 40px;
+    height: 40px;
     border-radius: 50%;
     align-items: center;
     justify-content: center;
@@ -183,4 +183,24 @@ nav {
     margin: auto;
 }
 
+.banner{
+    margin: 90px;
+    display: flex;
+    margin-top:80px ;
+}
+.left-col,.right-col{
+flex-basis: 50%;
+}
+.right-col img{
+    width: 95%;
+}
+.left-col h1{
+    font-size: 100px;
+}
+.left-col h3{
+   font-size:35px ; 
+}
+span{
+color: #95BDFF;
+}
 /* home */
