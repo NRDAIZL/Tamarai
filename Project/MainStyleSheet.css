@@ -1,13 +1,35 @@
-body
-{
-    background-color:#ffffff ;  
-}
+/*
+color hexes:
+--straw: #d6bd91;
+--blue-dianne: #1c4c56;
+--cement: #8e7e64;
+--gulf-stream: #89bbbb;
+--smalt-blue: #518f99;
+--calypso: #2a7589;
+--bali-hai: #83a7b6;
+--bunker: #0d1516;
+--black-marlin: #3a2f18;
+--pumpkin-skin: #b4640c
+*/
+
 h2
 {
-    color: #ffffff;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 40px;
+    text-align: center;
+    color: #1c4c56;
+}
+h3
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 30px;
+    text-align: center;
+    color:#ffffff;
 }
 .Ulogin
 {
+    height:100%;
+    width: 60%;
     background-color:#ffffff ;
 }
 .icons
@@ -16,6 +38,9 @@ h2
 }
 .wordings
 {
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    text-align: center;
     color: #ffffff;
 }
 .USbutton
@@ -27,16 +52,21 @@ h2
     border-radius: 20px;
     text-align: center;
     font-size: 30px;
-    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
 .URegbk
 {
+    width: 40%;
+    height:100%;
     background-color: #89bbbb;
     background-repeat: no-repeat;
 }
-#fpw
+#fyp
 {
-    color: #ffffff;
+    color: #1c4c56;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    text-decoration: none;
 }
 .URbutton
 {
@@ -47,4 +77,5 @@ h2
     border-radius: 20px;
     text-align: center;
     font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
 }
