@@ -28,6 +28,9 @@ h3
 }
 .Ulogin
 {
+    top:0%;
+    position: absolute;
+    left: 0%;
     height:100%;
     width: 60%;
     background-color:#ffffff ;
@@ -35,6 +38,11 @@ h3
 .icons
 {
     padding: 10px;
+    
+}
+.icons:hover
+{
+    cursor: pointer;
 }
 .wordings
 {
@@ -45,21 +53,32 @@ h3
 }
 .USbutton
 {
-    background-color: #1c4c56;
-    color: #1c4c56;
+    padding: 7px 30px;
+    display: inline-block;
+    background-color: #518f99;
+    color: #518f99;
     border: solid;
     border-width: medium;
-    border-radius: 20px;
+    border-radius: 30px;
     text-align: center;
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.USbutton:hover
+{
+    background-color: #1c4c56;
+    cursor: pointer;
+
 }
 .URegbk
 {
+    position: absolute;
+    top:0%;
+    right: 0%;
     width: 40%;
     height:100%;
     background-color: #89bbbb;
-    background-repeat: no-repeat;
 }
 #fyp
 {
@@ -68,14 +87,27 @@ h3
     font-size: 15px;
     text-decoration: none;
 }
+#fyp:hover 
+{
+    text-decoration: underline;
+    cursor: pointer;
+}
+  
 .URbutton
 {
-    background-color: #1c4c56;
-    color: #1c4c56;
+    padding: 7px 30px;
+    display: inline-block;
+    background-color: #518f99;
+    color: #518f99;
     border: solid;
     border-width: medium;
-    border-radius: 20px;
+    border-radius: 30px;
     text-align: center;
     font-size: 30px;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.URbutton:hover
+{
+    background-color: #1c4c56;
+    cursor: pointer;
 }
