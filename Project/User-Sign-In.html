@@ -21,10 +21,12 @@
                         </div>
                         <div class = "wordings">log into your account:</div>
                     </div>
-                    <form name="former" action="/action_page.php" onsubmit="return validateForm()" method="post">
+                    <form  name = "former" id="former" action="/" >
                         <div class = "Ubox">
-                        <input type="text" name = "user" placeholder="username" /> <br>
-                        <input type="password" placeholder="password" /> <br>
+                        <input id = "username" type="text" placeholder="username" /> <br>
+                        <span id = "error"></span>
+                        <input id = "username" type="password" placeholder="password" /> <br>
+                        <span id = "error"></span>
                         <a href="#"><label >fogrot your password?</label></a>
 
                         <div class = "USbutton">
