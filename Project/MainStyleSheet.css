@@ -2,3 +2,49 @@ body
 {
     background-color:#ffffff ;  
 }
+h2
+{
+    color: #ffffff;
+}
+.Ulogin
+{
+    background-color:#ffffff ;
+}
+.icons
+{
+    padding: 10px;
+}
+.wordings
+{
+    color: #ffffff;
+}
+.USbutton
+{
+    background-color: #1c4c56;
+    color: #1c4c56;
+    border: solid;
+    border-width: medium;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+    
+}
+.URegbk
+{
+    background-color: #89bbbb;
+    background-repeat: no-repeat;
+}
+#fpw
+{
+    color: #ffffff;
+}
+.URbutton
+{
+    background-color: #1c4c56;
+    color: #1c4c56;
+    border: solid;
+    border-width: medium;
+    border-radius: 20px;
+    text-align: center;
+    font-size: 30px;
+}
