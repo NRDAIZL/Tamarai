@@ -1,21 +1,16 @@
-const username = document.querySelector('#username');
-const password = document.querySelector('#password');
-const submit = document.querySelector('#submit');
-
-submit.addEventListener('click', (event)=>
-{
-    event.preventDefault();
-    if (username.value.trim() == '')
-    {
-        error(username, 'username cannot be empty');
+document.forms['former'].onsubmit = function(event){
+   
+    if(this.username.value.trim() === ""){
+       document.querySelector(".Uerror").innerHTML = "Please enter a username";
+       document.querySelector(".Uerror").style.display = "block";
+       event.preventDefault();
+       return false;
     }
-});
-
-function error(element, msg)
-{
-    element.style.border = '3px red solid';
-    const parent = element.parentElement;
-    const p = parent.querySelector('p');
-    p.textContent = msg;
-    p.style.visibility = 'visible';
-}
+  
+    if(this.password.value.trim() === ""){
+       document.querySelector(".Perror").innerHTML = "Please enter a password";
+       document.querySelector(".Perror").style.display = "block";
+       event.preventDefault();
+       return false;
+    }
+ }	
