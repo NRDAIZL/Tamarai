@@ -10,6 +10,8 @@ color hexes:
 --bunker: #0d1516;
 --black-marlin: #3a2f18;
 --pumpkin-skin: #b4640c
+
+https://www.freecodecamp.org/news/css-transition-examples/ da lel transition bta3 el moving fl button
 */
 
 h2
@@ -18,36 +20,57 @@ h2
     font-size: 50px;
     text-align: center;
     position: absolute;
-    top: 20%;
+    top: 5%;
     left: 19%;
     color: #1c4c56;
 }
 h3
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
-    font-size: 30px;
+    font-size: 40px;
     text-align: center;
     position: absolute;
-    top: 30%;
-    left: 30%;
+    top: 20%;
+    left: 23%;
     color:#ffffff;
+}
+.line 
+{
+    width: 50%;
+    height: 0;
+    border: 1px solid #89bbbb;
+    margin: 3px;
+    display:inline-block;
+    position: absolute;
+    top:43%;
+    left:25%;
 }
 .Ulogin
 {
-    top:0%;
     position: absolute;
+    top:0%;
     left: 0%;
     height:100%;
     width: 60%;
     background-color:#ffffff ;
 }
-.icons
+.Vlogin
 {
-    box-sizing: border-box;
     position: absolute;
-    top: 45%;
-    left: 41%;
-    
+    top:0%;
+    left: 0%;
+    height:100%;
+    width: 60%;
+    background-color:#ffffff ;
+}
+.Alogin
+{
+    position: absolute;
+    top:0%;
+    left: 18%;
+    height:100%;
+    width: 60%;
+    background-color:#ffffff ;
 }
 .words
 {
@@ -55,27 +78,54 @@ h3
     font-size: 20px;
     color: #1c4c56; 
     position: absolute;
-    top: 40%;
-    left: 39%;
+    top: 23%;
+    left: 39.5%;
 }
-#use
+.use
 {
-    padding: 10px;
+    box-sizing: border-box;
+    position: absolute;
+    top: 30%;
+    left: 35%;
+    padding: 20px;
     clear: left;
 }
-#adds
-{
-    padding: 10px;
-    clear: none;
-}
-#vend
-{
-    padding: 10px;
-    clear: right;
-}
-.icons:hover
+.use:hover
 {
     cursor: pointer;
+    top:28%;
+}
+/* .use:active
+{
+    cursor: pointer;
+} */
+.adds
+{
+    box-sizing: border-box;
+    position: absolute;
+    top: 30%;
+    left: 45%;
+    padding: 20px;
+    clear: none;
+}
+.adds:hover
+{
+    cursor: pointer;
+    top:28%;
+}
+.vend
+{
+    box-sizing: border-box;
+    position: absolute;
+    top: 30%;
+    left: 55%;
+    padding: 20px;
+    clear: right;
+}
+.vend:hover
+{
+    cursor: pointer;
+    top:28%;
 }
 .wordings
 {
@@ -87,19 +137,37 @@ h3
     left: 32%;
     color: #ffffff;
 }
+.codey
+{
+    position: absolute;
+    top: 47%;
+    left: 34.5%;
+    margin: 15px 0;
+}
+#admin-code
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 15px;
+    border-radius: 2px;
+    width: 250px;    
+    display: inline-block;
+    border: solid;
+    border-width: 1px;
+    border-color: #89bbbb;
+}
 .users
 {
     position: absolute;
-    top: 55%;
-    left: 39.5%;
-    margin: 0;
+    top: 57%;
+    left: 34.5%;
+    margin:15px 0;
 }
 #username
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     border-radius: 2px;
-    border-width: medium;
+    width: 250px;
     display: inline-block;
     border: solid;
     border-width: 1px;
@@ -108,8 +176,8 @@ h3
 .passes
 {
     position: absolute;
-    top: 60%;
-    left: 39.5%;
+    top: 67%;
+    left: 34.5%;
     margin: 15px 0;
 }
 #password
@@ -117,16 +185,19 @@ h3
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
     font-size: 15px;
     border-radius: 2px;
-    width: 100px;    
+    width: 250px;    
     display: inline-block;
     border: solid;
     border-width: 1px;
     border-color: #89bbbb;
 }
+.active
+{
+    box-shadow: #1c4c56;
+}
 .USbutton
 {
     padding: 7px 30px;
-    display: inline-block;
     background-color: #518f99;
     color: #ffffff;
     border: solid;
@@ -146,7 +217,38 @@ h3
     cursor: pointer;
 
 }
+.ASbutton
+{
+    padding: 7px 30px;
+    background-color: #518f99;
+    color: #ffffff;
+    border: solid;
+    border-width: medium;
+    border-radius: 30px;
+    text-align: center;
+    position: absolute;
+    top: 80%;
+    left: 40%;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+}
+.ASbutton:hover
+{
+    background-color: #1c4c56;
+    cursor: pointer;
+
+}
 .URegbk
+{
+    position: absolute;
+    top:0%;
+    right: 0%;
+    width: 40%;
+    height:100%;
+    background-color: #89bbbb;
+}
+.VRegbk
 {
     position: absolute;
     top:0%;
@@ -158,7 +260,7 @@ h3
 #fyp
 {
     position: absolute;
-    top: 70%;
+    top: 75%;
     left: 42%;
     color: #1c4c56;
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -192,6 +294,28 @@ h3
     background-color: #1c4c56;
     cursor: pointer;
 }
+.VRbutton
+{
+    padding: 7px 30px;
+    display: inline-block;
+    background-color: #518f99;
+    color: #ffffff;
+    border: solid;
+    border-width: medium;
+    border-radius: 30px;
+    text-align: center;
+    position: absolute;
+    top: 65%;
+    left: 40%;
+    font-size: 30px;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+}
+.VRbutton:hover
+{
+    background-color: #1c4c56;
+    cursor: pointer;
+}
+
 .Uerror
 {
 	color: darkred;
