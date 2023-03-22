@@ -20,6 +20,11 @@
     justify-content: space-between;
 }
 
+.tamarii {
+    height: 10px;
+    width: 100px;
+}
+
 .nav_logo {
     height: 60px;
 }
@@ -66,6 +71,29 @@
 
 .nav_items a img {
     width: 30px;
+}
+
+.links {
+    width: 100%;
+    display: flex;
+    padding: 10px 10vw;
+    justify-content: center;
+    list-style: none;
+    border-top: 1px solid #1C4C56;
+}
+
+.link {
+    text-transform: capitalize;
+    padding: 0 10px;
+    margin: 0 5px;
+    text-decoration: none;
+    color: #00A8D4;
+    opacity: 0.5;
+    transition: .5s;
+}
+
+.link:hover {
+    opacity: 1;
 }
 
 
