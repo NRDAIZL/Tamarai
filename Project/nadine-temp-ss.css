@@ -1,6 +1,7 @@
 body {
     margin: 0;
     background-color: #ECFCFF;
+    overflow: hidden;
 }
 
 * {
@@ -63,11 +64,11 @@ li a:hover {
 }
 
 .grid-container {
-    width: 100vw;
     height: 100vh;
+    width: 100vw;
     display: grid;
-    grid-template-columns: 1fr 1fr 1fr 1fr 1fr 1fr 1fr;
-    grid-template-rows: 100px 1fr 1fr 1fr 100px;
+    grid-template-columns: 1fr;
+    grid-template-rows: 70px 1fr 30px;
 }
 
 .grid-container>div {
@@ -106,4 +107,29 @@ i.fa-solid.fa-spa {
 section#productslist {
     background-color: #00A8D4;
     align-items: center;
+}
+
+
+/* Works on Firefox */
+
+* {
+    scrollbar-width: thin;
+    scrollbar-color: #1C4C56 #ECFCFF;
+}
+
+
+/* Works on Chrome, Edge, and Safari */
+
+*::-webkit-scrollbar {
+    width: 12px;
+}
+
+*::-webkit-scrollbar-track {
+    background: #ECFCFF;
+}
+
+*::-webkit-scrollbar-thumb {
+    background-color: #1C4C56;
+    border-radius: 20px;
+    border: 3px solid #ECFCFF;
 }
