@@ -1,4 +1,5 @@
-document.forms['former'].onsubmit = function(event){
+document.forms['former'].onsubmit = function(event)
+{
    
     if(this.username.value.trim() === ""){
        document.querySelector(".Uerror").innerHTML = "Please enter a username";
@@ -13,4 +14,8 @@ document.forms['former'].onsubmit = function(event){
        event.preventDefault();
        return false;
     }
- }	
+}	
+function openPage(pageUrl)
+{
+   window.open(pageUrl);
+}
