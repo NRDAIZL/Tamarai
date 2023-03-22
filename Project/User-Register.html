@@ -3,18 +3,23 @@
     <head>
         <link rel = "stylesheet" href="MainStyleSheet.css">
         <title>
-            User Login
+            User Register
         </title>
     </head>
 
     <body>
+        <div class ="USbk">
+            <h3 class = "welcomes">Welcome Aboard!</h3>
+            <div class = "wordings"> you new here? join us now! </div>
+            <button class = "URbutton">Sign Up</button>
+        </div>
             <div class ="Ulogin">
                 <div class = "Ulogger">
                     <h2>Sign in to your account</h2>
                     <div class = "words">or choose your user</div>
                         <span class="use"><i class="active" href="#" ><img src='photos/user.png'/></i></span>
-                        <a href="Admin-Sign-In.html"><span class="adds"><i href="#"><img src='photos/settings.png' /></i></span></a>
-                        <a href="Vendor-Sign-In.html"><span class="vend"><i href="#"><img src='photos/shopping-bag.png' /></i></span></a>
+                        <span class="adds"><i href="#" onclick="openPage('Admin-Sign-In.html')"><img src='photos/settings.png' /></i></span>
+                        <span class="vend"><i href="#" onclick="openPage('Vendor-Sign-In.html')"><img src='photos/shopping-bag.png' /></i></span>
 
                         <div class="line"></div>
                 </div>
@@ -28,14 +33,10 @@
                             <span class = "Perror"></span>
                         </div>
                         <span href="#" id="fyp">forgot your password?</span>
-                        <button  class = "USbutton" type="submit">Sign in</button>
+                        <button  class = "URbutton" type="submit">Sign in</button>
                 </form>
             </div>
-            <div class ="URegbk">
-                <h3 class = "welcomes">Welcome Aboard!</h3>
-                <div class = "wordings"> you new here? join us now! </div>
-                <button class = "URbutton">Sign Up</button>
-            </div>
+            
         <script src="Functions.js"></script>
     </body>
 </html>
