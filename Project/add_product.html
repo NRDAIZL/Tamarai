@@ -54,6 +54,27 @@
             background-color: #ECFCFF;
             color: #00A8D4;
         }
+        
+        ////////////////////////////
+        .formss {
+            display: table;
+            width: 100%
+        }
+        
+        label {
+            display: table-cell;
+            width: 1px;
+            white-space: nowrap;
+        }
+        
+        span {
+            display: table-cell;
+            padding: 0 4px 0 6px;
+        }
+        
+        input {
+            width: 70%;
+        }
     </style>
 </head>
 
@@ -83,9 +104,20 @@
         <div class="formss">
             <form>
                 <label for="productname">*Product Name:</label>
-                <input type="text" id="productname" name="productname" required minlength="3" maxlength="30" placeholder="Enter your product's name"> *
-                <textarea required minlength="15" maxlength="300" placeholder="Make your description clear to help people understand your product"></textarea>*
-                <input type="number" required><br><br>
+                <span> 
+                    <input type="text" id="productname"
+                        name="productname" required minlength="3" maxlength="30"
+                        placeholder="Enter your product's name"> </span>
+                <br>
+                <label for="description">*Product Description:</label><span>
+                    <textarea id="description" name="description" required minlength="15" maxlength="300"
+                        placeholder="Make your description clear to help people understand your product"></textarea>
+                </span>
+                <br>
+                <label for="price">*Price:</label><span>
+                    <br>
+                    <input type="number" id="price" name="price" required></span>
+                <br><br>
                 <input type="submit" value="Add Product">
 
             </form>
