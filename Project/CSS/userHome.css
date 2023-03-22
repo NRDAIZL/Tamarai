@@ -96,6 +96,30 @@
     opacity: 1;
 }
 
+.section {
+    width: 100%;
+    height: calc(100vh - 120px);
+    background-image: url('../photos/collection.jpg');
+    background-size: cover;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.section .back {
+    height: 150px;
+    display: block;
+    margin: auto;
+}
+
+.section .sub-heading {
+    margin-top: 10px;
+    text-align: center;
+    color: black;
+    text-transform: capitalize;
+    font-size: 35px;
+    font-weight: 300;
+}
 
 /*newnew
 #1C4C56

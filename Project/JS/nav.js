@@ -2,7 +2,7 @@ const creatNav = () => {
     let nav = document.querySelector('.navbar');
     nav.innerHTML = `
     <div class="nav">
-        <img style="width: 50px;margin-right: 2px;" src="photos/tamari.jpg" alt="Tamarii Logo">
+        <img style="width: 50px;margin-right: 2px;" src="photos/tamarii.jpg" alt="Tamarii Logo">
         <div class="nav_items">
             <div class="search">
                 <input type="text" name="search-bar" placeholder="Search for a shop, product !">
