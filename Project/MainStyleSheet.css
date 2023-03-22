@@ -54,11 +54,29 @@ h3
     width: 60%;
     background-color:#ffffff ;
 }
+.URegsiter
+{
+    position: absolute;
+    top:0%;
+    right: 0%;
+    height:100%;
+    width: 60%;
+    background-color:#ffffff ;
+}
 .Vlogin
 {
     position: absolute;
     top:0%;
     left: 0%;
+    height:100%;
+    width: 60%;
+    background-color:#ffffff ;
+}
+.VRegsiter
+{
+    position: absolute;
+    top:0%;
+    right: 0%;
     height:100%;
     width: 60%;
     background-color:#ffffff ;
@@ -72,6 +90,7 @@ h3
     width: 60%;
     background-color:#ffffff ;
 }
+
 .words
 {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
@@ -95,10 +114,6 @@ h3
     cursor: pointer;
     top:28%;
 }
-/* .use:active
-{
-    cursor: pointer;
-} */
 .adds
 {
     box-sizing: border-box;
@@ -244,6 +259,24 @@ h3
     position: absolute;
     top:0%;
     right: 0%;
+    width: 40%;
+    height:100%;
+    background-color: #89bbbb;
+}
+.USbk
+{
+    position: absolute;
+    top:0%;
+    left: 0%;
+    width: 40%;
+    height:100%;
+    background-color: #89bbbb;
+}
+.VSbk
+{
+    position: absolute;
+    top:0%;
+    left: 0%;
     width: 40%;
     height:100%;
     background-color: #89bbbb;
