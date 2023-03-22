@@ -8,12 +8,17 @@
     </head>
 
     <body>
-            <div class ="Vlogin">
+        <div class ="VSbk">
+            <h3 class = "welcomes">Welcome Aboard!</h3>
+            <div class = "wordings"> you new here? join us now! </div>
+            <button class = "VSbutton">Sign Up</button>
+        </div>
+            <div class ="VRegsiter">
                     <div class = "Vlogger">
                         <h2>Sign in to your account</h2>
                         <div class = "words">or choose your user</div>
-                            <a href="User-Sign-In.html"><span class="use"><i href="#"><img src='photos/user.png'/></i></span></a>
-                            <a href="Admin-Sign-In.html"><span class="adds"><i href="#" ><img src='photos/settings.png' /></i></span></a>
+                            <span class="use"><i href="#" onclick="openPage('User-Sign-In.html')"><img src='photos/user.png'/></i></span>
+                            <span class="adds"><i href="#" onclick="openPage('Admin-Sign-In.html')"><img src='photos/settings.png' /></i></span>
                             <span class="vend"><i class="active" href="#"><img src='photos/shopping-bag.png' /></i></span>
 
                             <div class="line"></div>
@@ -28,14 +33,10 @@
                             <span class = "Perror"></span>
                         </div>
                         <span href="#" id="fyp">forgot your password?</span>
-                        <a href="Vendor-Homepage.html"><button  class = "USbutton" type="submit">Sign in</button></a>
+                        <button  class = "URbutton" type="submit">Sign in</button>
                 </form>
             </div>
-            <div class ="VRegbk">
-                <h3 class = "welcomes">Welcome Aboard!</h3>
-                <div class = "wordings"> you new here? join us now! </div>
-                <a href="Vendor-Register.html"><button class = "VRbutton">Sign Up</button></a>
-            </div>
+            
         <script src="Functions.js"></script>
     </body>
 </html>

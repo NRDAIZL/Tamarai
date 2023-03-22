@@ -14,6 +14,13 @@ document.forms['former'].onsubmit = function(event)
        event.preventDefault();
        return false;
     }
+
+    if(this.admin-code.value.trim() === ""){
+      document.querySelector(".Aerror").innerHTML = "Please enter a valid code";
+      document.querySelector(".Aerror").style.display = "block";
+      event.preventDefault();
+      return false;
+   }
 }	
 function openPage(pageUrl)
 {
