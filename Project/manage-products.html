@@ -5,17 +5,82 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add new product</title>
     <link rel="stylesheet" href="nadine-temp-ss.css">
+    <link rel="stylesheet" href="add.css">
+    <link rel="stylesheet" href="productcard.css">
 
-    <title>Welcome to your store</title>
+
     <script src="https://kit.fontawesome.com/6baebf3609.js" crossorigin="anonymous"></script>
-    <style>
 
+    <style>
+        .prlist {
+            grid-row: 1/end;
+            grid-column: 2;
+            border-radius: 5px;
+            background-color: #FFF7D6;
+            overflow-y: scroll;
+            padding: 20px;
+            display: grid;
+            grid-template-columns: 1fr 1fr 1fr;
+            grid-template-rows: 50px 1fr 1fr;
+            column-gap: 15px;
+            row-gap: 15px;
+        }
+        
+        .buttonadd:focus-visible {
+            box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
+            transition: box-shadow .2s;
+        }
+        
+        .buttonadd:active {
+            background-color: #F7F7F7;
+            border-color: #000000;
+            color: #1C4C56;
+            transform: scale(.96);
+        }
+        
+        .buttonadd:disabled {
+            border-color: #DDDDDD;
+            color: #DDDDDD;
+            cursor: not-allowed;
+            opacity: 1;
+        }
+        
+        .buttonadd {
+            background-color: #1C4C56;
+            border-radius: 8px;
+            box-sizing: border-box;
+            color: #ECFCFF;
+            cursor: pointer;
+            display: inline-block;
+            font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
+            font-size: 10px;
+            font-weight: 600;
+            line-height: 20px;
+            margin: 0;
+            outline: none;
+            padding: 10px 23px;
+            position: relative;
+            text-align: center;
+            text-decoration: none;
+            touch-action: manipulation;
+            transition: box-shadow .2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
+            user-select: none;
+            -webkit-user-select: none;
+            width: auto;
+        }
+        
+        .buttons {
+            grid-row: 1;
+            grid-column: 2;
+        }
     </style>
 </head>
 
 <body>
     <div class="grid-container">
+
         <div class="header">
             <section id="navi">
 
@@ -30,24 +95,43 @@
                         <a href="manage-products.html">Listings</a>
                     </li>
                     <li>
-                        s <a href="store-info.html">Info</a>
+                        <a href="store-info.html">Info</a>
                     </li>
 
                 </ul>
-                <a href="Admin-Sign-In.html "><i  class="fa-solid fa-arrow-right-from-bracket "></i></a>
+                <a href=""><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
             </section>
         </div>
-        <div class="main">
-            <section id="productslist">
-                <div>u</div>
-                <div>f</div>
-                <div>3</div>
-                <div>u</div>
-            </section>
+        <div class="body">
+
+            <div class="prlist">
+                <div class="buttons"> <button type="button" role="button" class="buttonadd" onclick="window.location.href = '';">Delete
+                        Item</button>
+                    <button type="button" role="button" class="buttonadd" onclick="window.location.href = 'add_product.html';">Add New Item</button></div>
+                <div class="card">
+
+                    <div class="imgBox">
+                        <img src="https://www.corsair.com/corsairmedia/sys_master/productcontent/CH-9300011-NA-M65_PRO_RGB_BLK_04.png" alt="mouse corsair" class="mouse">
+                    </div>
+
+                    <div class="contentBox">
+                        <h3>Mouse Corsair M65</h3>
+                        <h2 class="price">61.<small>98</small> €</h2>
+                        <a href="#" class="buy">Buy Now</a>
+                    </div>
+
+                </div>
+
+            </div>
+
         </div>
 
+        <div class="footer">
 
+        </div>
     </div>
+
+
 </body>
 
 </html>
