@@ -39,10 +39,6 @@
     display: flex;
   }
   
-  .main_image {
-    width: auto;
-    height: auto;
-  }
   
   .option img {
     width: 75px;
@@ -159,4 +155,6 @@
   }
   .myslides{
     display: none;
+    width: 20px;
+    height: 20px;
 }
