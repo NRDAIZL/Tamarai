@@ -38,3 +38,34 @@ body{
    }
     /* //#1C4C56 */
     /* #f0db87 */
+   .the first list items{
+        margin: auto;
+        width: 90%;
+        height: 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+    }
+    .the first image box{
+        width: 15%;
+        text-align: center;
+    }
+    .about the item {
+        height: 100%;
+       }
+       .title{
+        padding-top: 5px;
+        line-height: 10px;
+        font-size: 32px;
+        font-family: ‘Open Sans’;
+        font-weight: 800;
+        color: #202020;
+       }
+       .subtitle{
+        line-height: 10px;
+        font-size: 18px;
+        font-family: ‘Open Sans’;
+        font-weight: 600;
+        color: #909090;
+       }
+
