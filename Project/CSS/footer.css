@@ -48,6 +48,44 @@ footer {
     color: #FFF7D6;
 }
 
+.footer-title, .info {
+    color: #FFF7D6;
+    margin: 20px 0;
+    text-transform: capitalize;
+}
+
+.footer-title {
+    margin-top: 80px;
+    color: #FFF7D6;
+}
+
+.footer-social-container {
+    margin-top: 40px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.social-link {
+    color: #FFF7D6;
+    margin-left: 20px;
+    text-transform: capitalize;
+}
+
+.social-link:nth-child(1) {
+    margin-left: 0;
+}
+
+.footer-credit {
+    width: 100%;
+    padding: 10px;
+    position: absolute;
+    left: 0;
+    bottom: 0;
+    text-align: center;
+    color: #FFF7D6;
+    background: rgba(0, 0, 0, 0.2);
+}
+
 /*newnew
 #1C4C56
 #00A8D4
