@@ -14,6 +14,14 @@ color hexes:
 * 
 {
     box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    outline: 0;
+    appearance: none;
+    border: 0;
+    text-decoration: none;
+    list-style: none;
+
 }
 h2
 {
@@ -443,51 +451,56 @@ h3
     border-radius: 2px;
 	display: none;
 }
-.AdminSidebar
+img
 {
-  height: 100%;
-  width: 160px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #518f99;
-  padding: 20px 10px;
-}
-.AdminSidebar a 
-{
-    padding: 6px 8px 28px 16px;
-    font-size: 20px;
-    color: #000000;
     display: block;
 }
-.AdminSidebar a:hover 
+a
 {
-    color: #f1f1f1;
-    cursor: pointer;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: #000000;
 }
-.home
+.container
 {
-    margin-left: 5px;
+    display: grid;
+    width: 96%;
+    margin: 0 auto;
+    gap: 1.8rem;
+    grid-template-columns: 14rem auto 23rem;
 }
-.stats
+aside
 {
-    margin-left: 5px;
+    height: 100vh;
+    background: #89bbbb;
 }
-.money
+aside .tops
 {
-    margin-left: 5px;
+    background: white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    margin-top: 1.4rem;
 }
-.message
+aside .logo
 {
-    margin-left: 5px;
+    display: flex;
+    gap: 0.8rem;
 }
-.product
+aside .close
 {
-    margin-left: 5px;
+    display: none;
 }
-.useradd
+aside .logo img
 {
-    margin-left: 5px;
+    width: 10rem;
+    height: 10rem;
 }
-
+aside .AdminSidebar
+{
+    background: #89bbbb;
+    display: flex;
+    flex-direction: column;
+    height: 12vh;
+    position: relative;
+    top: 3rem;
+}
