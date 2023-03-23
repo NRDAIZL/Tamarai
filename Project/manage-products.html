@@ -11,7 +11,17 @@
     <link rel="stylesheet" href="productcard.css">
 
 
-    <script src="https://kit.fontawesome.com/6baebf3609.js" crossorigin="anonymous"></script>
+    <script src="https://kit.fontawesome.com/6baebf3609.js" crossorigin="anonymous">
+        var ItemNum = 1;
+        $('.js-add-btn').on('click', function() {
+            $('.js-list').append("<li class='list-item js-list-item'>item" + (++ItemNum) + "</li>")
+        })
+
+        $('.js-list').on('click', '.js-list-item', function() {
+            $('.js-list-item').removeClass('is-active');
+            $(this).addClass('is-active');
+        })
+    </script>
 
     <style>
         .prlist {
@@ -76,6 +86,7 @@
             grid-column: 2;
         }
     </style>
+
 </head>
 
 <body>
@@ -105,22 +116,32 @@
         <div class="body">
 
             <div class="prlist">
-                <div class="buttons"> <button type="button" role="button" class="buttonadd" onclick="window.location.href = '';">Delete
+                <div class="buttons">
+                    <button type="button" role="button" class="buttonadd btn js-add-btn" onclick="window.location.href = '';">Delete
                         Item</button>
-                    <button type="button" role="button" class="buttonadd" onclick="window.location.href = 'add_product.html';">Add New Item</button></div>
-                <div class="card">
+                    <button type="button" role="button" class="buttonadd" onclick="window.location.href = 'add_product.html';">Add New Item</button>
+                </div>
+                <!--  <div class="card">
 
                     <div class="imgBox">
                         <img src="https://www.corsair.com/corsairmedia/sys_master/productcontent/CH-9300011-NA-M65_PRO_RGB_BLK_04.png" alt="mouse corsair" class="mouse">
                     </div>
 
-                    <div class="contentBox">
+                   <div class="contentBox">
                         <h3>Mouse Corsair M65</h3>
                         <h2 class="price">61.<small>98</small> €</h2>
                         <a href="#" class="buy">Buy Now</a>
                     </div>
 
+                </div>-->
+                <div class='btn js-add-btn' onclick="">
+                    <button> Add Item</button>
                 </div>
+                <ul class='demo-list js-list'>
+                    <li class='list-item js-list-item'>
+                        item1
+                    </li>
+                </ul>
 
             </div>
 
