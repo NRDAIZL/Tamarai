@@ -5,14 +5,20 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add new product</title>
     <link rel="stylesheet" href="nadine-temp-ss.css">
+    <link rel="stylesheet" href="add.css">
+
     <script src="https://kit.fontawesome.com/6baebf3609.js" crossorigin="anonymous"></script>
 
-    <title>Analysis</title>
+    <style>
+
+    </style>
 </head>
 
 <body>
     <div class="grid-container">
+
         <div class="header">
             <section id="navi">
 
@@ -34,8 +40,27 @@
                 <a href=""><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
             </section>
         </div>
+        <div class="body">
+            <div class="formss">
+                <form>
+                    <label for="productname">*Product Name:</label>
+                    <input type="text" id="productname" name="productname" required minlength="3" maxlength="30" placeholder="Enter your product's name"> *
+                    <textarea required minlength="15" maxlength="300" placeholder="Make your description clear to help people understand your product"></textarea>*
+                    <input type="text" name="currency-field" id="currency-field" value="" data-type="currency" placeholder="$1,000,000.00">
+                    <input type="submit" class='btn js-add-btn' value="Add Product">
 
+                </form>
+
+            </div>
+
+        </div>
+
+        <div class="footer">
+
+        </div>
     </div>
+
+
 </body>
 
 </html>

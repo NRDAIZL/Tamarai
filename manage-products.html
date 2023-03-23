@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add new product</title>
+    <link rel="stylesheet" href="nadine-temp-ss.css">
+    <link rel="stylesheet" href="add.css">
+    <link rel="stylesheet" href="productcard.css">
+    <link rel="stylesheet" href="manage.css">
+
+    <style>
+        #myList {}
+    </style>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js">
+    </script>
+</head>
+
+<body>
+
+    <div class="grid-container">
+
+        <div class="header">
+            <section id="navi">
+
+                <ul id="navbar">
+                    <li>
+                        <i class="fa-solid fa-spa"></i>
+                    </li>
+                    <li>
+                        <a href="store-analysis.html">Analysis</a>
+                    </li>
+                    <li>
+                        <a href="manage-products.html">Listings</a>
+                    </li>
+                    <li>
+                        <a href="store-info.html">Info</a>
+                    </li>
+
+                </ul>
+                <a href=""><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
+            </section>
+        </div>
+        <div class="body">
+
+            <div class="prlist">
+                <div class="buttons">
+                    <button type="button" role="button" class="buttonadd btn js-add-btn" onclick="window.location.href = '';">Delete
+                        Item</button>
+                    <button type="button" role="button" class="buttonadd" onclick="window.location.href = 'add_product.html';">Add New Item</button>
+                </div>
+                <!--  <div class="card">
+
+                    <div class="imgBox">
+                        <img src="https://www.corsair.com/corsairmedia/sys_master/productcontent/CH-9300011-NA-M65_PRO_RGB_BLK_04.png" alt="mouse corsair" class="mouse">
+                    </div>
+
+                   <div class="contentBox">
+                        <h3>Mouse Corsair M65</h3>
+                        <h2 class="price">61.<small>98</small> €</h2>
+                        <a href="#" class="buy">Buy Now</a>
+                    </div>
+
+                </div>-->
+
+                <button id="addItemButton">Add Item</button>
+                <ul id="myList">
+                    <li>Sample Item 1</li>
+                </ul>
+
+                <input id="myText">
+                <script src="manage.js">
+                </script>
+
+            </div>
+
+        </div>
+
+        <div class="footer">
+
+        </div>
+    </div>
+
+
+</body>
+
+</html>

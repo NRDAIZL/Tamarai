@@ -15,8 +15,9 @@
     <section>
         <div class="container flex">
             <div class="left">
+                <div class="main_image">
                 <div >
-                   <img  src="photos/ring.jpg" alt="ring">
+                   <img src="photos/card1.webp" alt="card1">
                 </div>
                 <div class="option flex">
 
@@ -28,6 +29,8 @@
                 <hr>
                 <h4> <strong><i class="fas fa-dollar-sign    "></i></strong>500.99 </h4>
                 <p> It's a ring that was made with love. So,it called HEART</p>
+                <h4> <strong>150 L.E</strong> </h4>
+                <p>It's suitable for this weather</p>
                 <h5>Quantity</h5>
                 <hr>
                 <div class="add flex1">
@@ -40,7 +43,16 @@
             </div>
         </div>
     </section>
+    <script>
+        function img(anything) {
+            document.querySelector('.slide').src = anything;
+        }
 
+        function change(change) {
+            const line = document.querySelector('.home');
+            line.style.background = change;
+        }
+    </script>
 </body>
 
 </html>
