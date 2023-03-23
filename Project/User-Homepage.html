@@ -1,9 +1,41 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
 <head>
-    <title>HomePage</title>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Tamarii Home page</title>
+    <link rel="stylesheet" href="CSS/userHome.css">
+    <!-- adding an favicon -->
+    <link rel="shortcut icon" type="image/jpg" href="photos/lotus.ico"/>
 </head>
 <body>
-    
+    <nav class="navbar"></nav>
+    <script src="JS/nav.js"></script>
+    <header class="section">
+        <div class="content">
+            <img src="photos/Thamaraii.png" class="back" alt="Background">
+            <p class="sub-heading">Best collection of all time.</p>
+        </div>
+    </header>
+    <section class="product">
+        <h2 class="product-category">Best Selling</h2>
+        <div class="product-container">
+            <div class="product-card">
+                <div class="product-image">
+                    <span class="discount-tag">50% off</span>
+                    <img src="photos/card1.jpg" class="product-thumb" alt="Dress">
+                    <button class="card-btn">Add to wishlist</button>
+                </div>
+                <div class="product-info">
+                    <h2 class="product-brand">Brand</h2>
+                    <p class="product-short-des">It's a pink dress. You can celebrate with.</p>
+                    <span class="price">150L.E.</span>
+                    <span class="actual-price">300L.E.</span>
+                </div>
+            </div>
+            + 7 more cards
+        </div>
+    </section>
 </body>
 </html>
