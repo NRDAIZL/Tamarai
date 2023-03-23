@@ -157,3 +157,6 @@
       flex-wrap: wrap;
     }
   }
+  .myslides{
+    display: none;
+}
