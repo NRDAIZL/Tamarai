@@ -38,3 +38,11 @@ body{
    }
     /* //#1C4C56 */
     /* #f0db87 */
+   .the first list items{
+        margin: auto;
+        width: 90%;
+        height: 30%;
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+       }
