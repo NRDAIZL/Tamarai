@@ -9,6 +9,7 @@ const creatNav = () => {
                 <button class="search-btn">Search</button>
                 <a href=""><img src="photos/user2.0.jpg" alt="user"></a>
                 <a href=""><img src="photos/shoppingCart.jpg" alt="cart"></a>
+                <a href=""><img src="photos/chat.png" alt="chat"></a>
             </div>
         </div>
     </div>
