@@ -56,9 +56,18 @@
 
                     <textarea id="description" name="description" required minlength="15" maxlength="300" placeholder="Make your description clear to help people understand your product"></textarea>
                     <label for="currency-field">*Price:</label>
+                    <input type="text" name="currency-field" id="currency-field" value="" data-type="currency" placeholder="$100.00">
+                    <label for="radionature">*Nature:</label>
 
-                    <input type="text" name="currency-field" id="currency-field" value="" data-type="currency" placeholder="$100.00">   <input type="radio" id="html" name="fav_language" value="HTML">   <label for="html">HTML</label><br>   <input type="radio"
-                        id="css" name="fav_language" value="CSS">   <label for="css">CSS</label><br>   <input type="radio" id="javascript" name="fav_language" value="JavaScript">   <label for="javascript">JavaScript</label>
+                    <div id="radionature">
+                        <input type="radio" id="order" name="nature" value="by-order">
+                        <label for="by-order">By Order</label><br>
+                        <input type="radio" id="order" name="nature" value="CSS">
+                        <label for="css">Ready For Shipment</label><br>
+                        <input type="radio" id="javascript" name="nature" value="JavaScript">
+                        <label for="javascript">Digital</label><br>
+                    </div>
+
 
 
                     <input type="submit" class='btn js-add-btn' value="Add Product">
