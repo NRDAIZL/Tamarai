@@ -12,7 +12,8 @@ body{
   height: 85%;
   background-color: #ffffff;
   border-radius: 20px;
-  box-shadow: 0px 25px 40px #1687d933;
+  box-shadow: 0px 25px 40px #1C4C56;
+ 
  }
  .Header{
   margin: auto;
@@ -21,20 +22,25 @@ body{
   display:flex;
   justify-content: space-between;
   align-items: center;
+  display: flex;
  }
  .Heading{
   font-size: 20px;
   font-family: ‘Open Sans’;
   font-weight: 700;
-  color: #2F3841;
+  color: #1C4C56;
+  display: flex;
+ 
  }
  .Action{
   font-size: 14px;
  font-family: ‘Open Sans’;
  font-weight: 600;
- color: #E44C4C;
+ color: #f0db87;
  cursor: pointer;
- border-bottom: 1px solid #E44C4C;
+ border-bottom: 1px solid#f0db87;
+ display: flex;
+ 
  }
  .Cart-Items{
   margin: auto;
@@ -47,9 +53,13 @@ body{
  .image-box{
   width: 15%;
   text-align: center;
+  display: flex;
+  position:relative;
+  
  }
  .about{
   height: 100%;
+  
  }
  .title{
   padding-top: 5px;
@@ -57,7 +67,9 @@ body{
   font-size: 32px;
   font-family: ‘Open Sans’;
   font-weight: 800;
-  color: #202020;
+  color:#1C4C56;
+  display: flex;
+  position:relative;
  }
  .subtitle{
   line-height: 10px;
@@ -65,12 +77,16 @@ body{
   font-family: ‘Open Sans’;
   font-weight: 600;
   color: #909090;
+  display: flex;
+  position:relative;
  }
  .counter{
   width: 15%;
   display: flex;
   justify-content: space-between;
   align-items: center;
+  display: flex;
+  position:relative;
  }
  .btn{
   width: 40px;
@@ -83,62 +99,71 @@ body{
   font-size: 20px;
   font-family: ‘Open Sans’;
   font-weight: 900;
-  color: #202020;
+  color: #1C4C56;
   cursor: pointer;
  }
  .count{
   font-size: 20px;
   font-family: ‘Open Sans’;
   font-weight: 900;
-  color: #202020;
+  color: #1C4C56;
+ 
  }
  .prices{
   height: 100%;
   text-align: right;
+ 
  }
  .amount{
   padding-top: 20px;
   font-size: 26px;
   font-family: ‘Open Sans’;
   font-weight: 800;
-  color: #202020;
+  color: #1C4C56;
+  
  }
  .save{
   padding-top: 5px;
   font-size: 14px;
   font-family: ‘Open Sans’;
   font-weight: 600;
-  color: #1687d9;
+  color: #1C4C56;
   cursor: pointer;
+ 
  }
  .remove{
   padding-top: 5px;
   font-size: 14px;
   font-family: ‘Open Sans’;
   font-weight: 600;
-  color: #E44C4C;
+  color: #f0db87;
   cursor: pointer;
+ 
  }
  hr{
   width: 66%;
   float: right;
   margin-right: 5%;
+ 
  }
  .checkout{
   float: right;
   margin-right: 5%;
   width: 28%;
+   
  }
  .total{
   width: 100%;
   display: flex;
   justify-content: space-between;
+  
  }
  .Subtotal{
   font-size: 22px;
   font-family: ‘Open Sans’;
   font-weight: 700;
-  color: #202020;
+  color: #1C4C56;
+ 
  }
  .items{
   font-size: 16px;
@@ -146,12 +171,14 @@ body{
   font-weight: 500;
   color: #909090;
   line-height: 10px;
+ 
  }
  .total-amount{
   font-size: 36px;
   font-family: ‘Open Sans’;
   font-weight: 900;
-  color: #202020;
+  color: #1C4C56;
+ 
  }
  .button{
   margin-top: 5px;
@@ -164,6 +191,8 @@ body{
   font-size: 16px;
   font-family: ‘Open Sans’;
   font-weight: 600;
-  color: #202020;
- }
+  color: #1C4C56;
  
+ }
+     /* //#1C4C56 */
+    /* #f0db87 */
