@@ -9,87 +9,17 @@
     <link rel="stylesheet" href="nadine-temp-ss.css">
     <link rel="stylesheet" href="add.css">
     <link rel="stylesheet" href="productcard.css">
-
-
-    <script src="https://kit.fontawesome.com/6baebf3609.js" crossorigin="anonymous">
-        var ItemNum = 1;
-        $('.js-add-btn').on('click', function() {
-            $('.js-list').append("<li class='list-item js-list-item'>item" + (++ItemNum) + "</li>")
-        })
-
-        $('.js-list').on('click', '.js-list-item', function() {
-            $('.js-list-item').removeClass('is-active');
-            $(this).addClass('is-active');
-        })
-    </script>
+    <link rel="stylesheet" href="manage.css">
 
     <style>
-        .prlist {
-            grid-row: 1/end;
-            grid-column: 2;
-            border-radius: 5px;
-            background-color: #FFF7D6;
-            overflow-y: scroll;
-            padding: 20px;
-            display: grid;
-            grid-template-columns: 1fr 1fr 1fr;
-            grid-template-rows: 50px 1fr 1fr;
-            column-gap: 15px;
-            row-gap: 15px;
-        }
-        
-        .buttonadd:focus-visible {
-            box-shadow: #222222 0 0 0 2px, rgba(255, 255, 255, 0.8) 0 0 0 4px;
-            transition: box-shadow .2s;
-        }
-        
-        .buttonadd:active {
-            background-color: #F7F7F7;
-            border-color: #000000;
-            color: #1C4C56;
-            transform: scale(.96);
-        }
-        
-        .buttonadd:disabled {
-            border-color: #DDDDDD;
-            color: #DDDDDD;
-            cursor: not-allowed;
-            opacity: 1;
-        }
-        
-        .buttonadd {
-            background-color: #1C4C56;
-            border-radius: 8px;
-            box-sizing: border-box;
-            color: #ECFCFF;
-            cursor: pointer;
-            display: inline-block;
-            font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
-            font-size: 10px;
-            font-weight: 600;
-            line-height: 20px;
-            margin: 0;
-            outline: none;
-            padding: 10px 23px;
-            position: relative;
-            text-align: center;
-            text-decoration: none;
-            touch-action: manipulation;
-            transition: box-shadow .2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
-            user-select: none;
-            -webkit-user-select: none;
-            width: auto;
-        }
-        
-        .buttons {
-            grid-row: 1;
-            grid-column: 2;
-        }
+        #myList {}
     </style>
-
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js">
+    </script>
 </head>
 
 <body>
+
     <div class="grid-container">
 
         <div class="header">
@@ -134,14 +64,15 @@
                     </div>
 
                 </div>-->
-                <div class='btn js-add-btn' onclick="">
-                    <button> Add Item</button>
-                </div>
-                <ul class='demo-list js-list'>
-                    <li class='list-item js-list-item'>
-                        item1
-                    </li>
+
+                <button id="addItemButton">Add Item</button>
+                <ul id="myList">
+                    <li>Sample Item 1</li>
                 </ul>
+
+                <input id="myText">
+                <script src="manage.js">
+                </script>
 
             </div>
 
