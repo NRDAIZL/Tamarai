@@ -28,11 +28,28 @@ function ValidatePass(field)
     return true;
   }
 }
+function ValidateMail(field)
+{
+  if (field == '')
+  {
+    document.getElementById('Eerror').innerHTML='Enter a valid email';
+    document.getElementById('Eerror').style.display='block';
+    return false;
+  }
+  else
+  {
+    document.getElementById('Eerror').innerHTML='';
+    document.getElementById('Eerror').style.display='none';
+    return true;
+  }
+}
+
 function Validation(form)
 {
   let failing ='';
   failing&= ValidateName(form.username.value.trim());
   failing&= ValidatePass(form.password.value.trim());
+  failing&= ValidateMail(form.email.value.trim());
   
   if(failing)
   {
