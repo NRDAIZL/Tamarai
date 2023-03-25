@@ -6,8 +6,11 @@
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Add new product</title>
-    <link rel="stylesheet" href="nadine-temp-ss.css">
-    <link rel="stylesheet" href="add.css">
+    <link rel="stylesheet" href="CSS/nadine-temp-ss.css">
+    <link rel="stylesheet" href="CSS/add.css">
+    <link rel="stylesheet" href="CSS/chatin.css">
+
+    <script src="JS/chatin.js" crossorigin="anonymous"></script>
 
     <script src="https://kit.fontawesome.com/6baebf3609.js" crossorigin="anonymous"></script>
 
@@ -59,6 +62,19 @@
 <div class="footer">
 
 </div>
+</div>
+<button class="open-button" onclick="openForm()">Chat</button>
+
+<div class="chat-popup" id="myForm">
+    <form class="form-container">
+        <h1>Chat</h1>
+
+        <label for="msg"><b>Message</b></label>
+        <textarea placeholder="Type message.." name="msg" required></textarea>
+
+        <button type="submit" class="btn">Send</button>
+        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
+    </form>
 </div>
 
 
