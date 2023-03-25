@@ -43,30 +43,19 @@
 </style>
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js">
 </script>
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+    $(function() {
+        $("#header").load("storenavii.html");
+        $("#chatbox").load("chattin.html");
+    });
+</script>
 
 <body>
     <div class="grid-container">
 
         <div class="header">
-            <section id="navi">
-
-                <ul id="navbar">
-                    <li>
-                        <i class="fa-solid fa-spa"></i>
-                    </li>
-                    <li>
-                        <a href="store-analysis.html">Analysis</a>
-                    </li>
-                    <li>
-                        <a href="manage-products.html">Listings</a>
-                    </li>
-                    <li>
-                        <a href="store-info.html">Info</a>
-                    </li>
-
-                </ul>
-                <a href=""><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
-            </section>
+            <div id="header"></div>
         </div>
         <div class="body">
 
@@ -186,6 +175,9 @@
             </div>
 
         </div>
+    </div>
+    <div class="chatbox">
+        <div id="chatbox"></div>
     </div>
 </body>
 

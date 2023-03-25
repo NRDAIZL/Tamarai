@@ -10,10 +10,17 @@
     <link rel="stylesheet" href="CSS/add.css">
     <link rel="stylesheet" href="CSS/chatin.css">
 
-    <script src="JS/chatin.js" crossorigin="anonymous"></script>
+
 
     <script src="https://kit.fontawesome.com/6baebf3609.js" crossorigin="anonymous"></script>
 
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function() {
+            $("#header").load("storenavii.html");
+            $("#chatbox").load("chattin.html");
+        });
+    </script>
     <style>
         .body {
             grid-template-columns: 3fr 10fr 3fr;
@@ -26,56 +33,48 @@
     </style>
 </head>
 
-<div class="formss">
-    <form>
-        <label for="productname">*Product Name:</label>
-        <input type="text" id="productname" name="productname" required minlength="3" maxlength="30" placeholder="Enter your product's name">
-        <label for="description">*Description:</label>
+<body>
+    <div class="header">
+        <div id="header"></div>
+    </div>
+    <div class="formss">
+        <form>
+            <label for="productname">*Product Name:</label>
+            <input type="text" id="productname" name="productname" required minlength="3" maxlength="30" placeholder="Enter your product's name">
+            <label for="description">*Description:</label>
 
-        <textarea id="description" name="description" required minlength="15" maxlength="300" placeholder="Make your description clear to help people understand your product"></textarea>
-        <label for="currency-field">*Price:</label>
-        <input type="text" name="currency-field" id="currency-field" value="" data-type="currency" placeholder="$100.00">
-        <label for="radionature">*Nature:</label>
+            <textarea id="description" name="description" required minlength="15" maxlength="300" placeholder="Make your description clear to help people understand your product"></textarea>
+            <label for="currency-field">*Price:</label>
+            <input type="text" name="currency-field" id="currency-field" value="" data-type="currency" placeholder="$100.00">
+            <label for="radionature">*Nature:</label>
 
-        <div id="radionature">
-            <input type="radio" id="order" name="nature" value="by-order">
-            <label for="by-order">By Order</label><br>
-            <input type="radio" id="order" name="nature" value="CSS">
-            <label for="css">Ready For Shipment</label><br>
-            <input type="radio" id="javascript" name="nature" value="JavaScript">
-            <label for="javascript">Digital</label><br>
-        </div>
+            <div id="radionature">
+                <input type="radio" id="order" name="nature" value="by-order">
+                <label for="by-order">By Order</label><br>
+                <input type="radio" id="order" name="nature" value="CSS">
+                <label for="css">Ready For Shipment</label><br>
+                <input type="radio" id="javascript" name="nature" value="JavaScript">
+                <label for="javascript">Digital</label><br>
+            </div>
 
 
 
-        <input type="text" id="productname" name="productname" required minlength="3" maxlength="30" placeholder="Enter your product's name"> *
-        <textarea required minlength="15" maxlength="300" placeholder="Make your description clear to help people understand your product"></textarea>*
-        <input type="text" name="currency-field" id="currency-field" value="" data-type="currency" placeholder="$1,000,000.00">
-        <input type="submit" class='btn js-add-btn' value="Add Product">
+            <input type="text" id="productname" name="productname" required minlength="3" maxlength="30" placeholder="Enter your product's name"> *
+            <textarea required minlength="15" maxlength="300" placeholder="Make your description clear to help people understand your product"></textarea>*
+            <input type="text" name="currency-field" id="currency-field" value="" data-type="currency" placeholder="$1,000,000.00">
+            <input type="submit" class='btn js-add-btn' value="Add Product">
 
-    </form>
+        </form>
 
-</div>
+    </div>
 
-</div>
 
-<div class="footer">
+    <div class="footer">
 
-</div>
-</div>
-<button class="open-button" onclick="openForm()">Chat</button>
-
-<div class="chat-popup" id="myForm">
-    <form class="form-container">
-        <h1>Chat</h1>
-
-        <label for="msg"><b>Message</b></label>
-        <textarea placeholder="Type message.." name="msg" required></textarea>
-
-        <button type="submit" class="btn">Send</button>
-        <button type="button" class="btn cancel" onclick="closeForm()">Close</button>
-    </form>
-</div>
+    </div>
+    <div class="chatbox">
+        <div id="chatbox"></div>
+    </div>
 
 
 </body>
