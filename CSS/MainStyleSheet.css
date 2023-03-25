@@ -101,6 +101,12 @@ h3
     top: 23%;
     left: 39.5%;
 }
+.label
+{
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 20px;
+    color: #1c4c56; 
+}
 .use
 {
     box-sizing: border-box;
@@ -443,51 +449,3 @@ h3
     border-radius: 2px;
 	display: none;
 }
-.AdminSidebar
-{
-  height: 100%;
-  width: 160px;
-  position: fixed;
-  z-index: 1;
-  top: 0;
-  left: 0;
-  background-color: #518f99;
-  padding: 20px 10px;
-}
-.AdminSidebar a 
-{
-    padding: 6px 8px 28px 16px;
-    font-size: 20px;
-    color: #000000;
-    display: block;
-}
-.AdminSidebar a:hover 
-{
-    color: #f1f1f1;
-    cursor: pointer;
-}
-.home
-{
-    margin-left: 5px;
-}
-.stats
-{
-    margin-left: 5px;
-}
-.money
-{
-    margin-left: 5px;
-}
-.message
-{
-    margin-left: 5px;
-}
-.product
-{
-    margin-left: 5px;
-}
-.useradd
-{
-    margin-left: 5px;
-}
-

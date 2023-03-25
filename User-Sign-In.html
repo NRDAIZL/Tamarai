@@ -18,18 +18,21 @@
 
                         <div class="line"></div>
                 </div>
-                <form name="former" action="#" method="post" class = "form" >
+                <form action="#"class = "form" >
                         <div class = "users">
-                            <input id = "username" type="text" placeholder="username"> <br>
+                            <label for="username" class ="label">Username</label>
+                            <input id = "username" type="text" placeholder="username" class="input"> <br>
                             <span class = "Uerror"></span>
                         </div>
                         <div class="passes">
+                            <label for="password" class ="label">Password</label>
                             <input id = "password" type="password" placeholder="password"> <br>
                             <span class = "Perror"></span>
                         </div>
                         <span href="#" id="fyp">forgot your password?</span>
-                        <button  class = "USbutton" type="submit">Sign in</button>
+                        <input type="submit" class="USbutton" value="Sign in" onclick="window.location.href='User-Homepage.html'"></input>
                 </form>
+
             </div>
             <div class ="URegbk">
                 <h3 class = "welcomes">Welcome Aboard!</h3>
