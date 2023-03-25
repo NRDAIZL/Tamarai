@@ -39,8 +39,16 @@
     display: flex;
   }
   
+  .main_image {
+    width: auto;
+    height: auto;
+  }
   
- 
+  .option img {
+    width: 75px;
+    height: 75px;
+    padding: 10px;
+  }
   
   .right {
     padding: 50px 100px 50px 50px;
@@ -138,20 +146,14 @@
     .left, .right {
       padding: 0;
     }
- 
- 
+  
+    img {
+      width: 100%;
+      height: 100%;
+    }
+  
     .option {
       display: flex;
       flex-wrap: wrap;
     }
   }
-  .myslides{
-    display: none;
-    width: 20px;
-    height: 20px;
-}
-img{
-    height: 500px;
-    width: 500px;
-    
-}

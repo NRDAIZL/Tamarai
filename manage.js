@@ -1,9 +1,8 @@
 // When the element with id="addItemButton" is clicked,
-var i = 2;
-/*$('#addItemButton').click(function() {
+$('#addItemButton').click(function() {
 
     // Append the stuff in brackets to the element with id="myList"
-     $('#myList').append('<li>' + $('#myText').val() + '</li>');
+    $('#myList').append('<li>' + $('#myText').val() + '</li>' + '<br>');
 
     // ^ The stuff in brackets is an li code with the value of the HTML
     // element with id="myText", your input field above.
@@ -34,7 +33,3 @@ var i = 2;
     });
 
 });
-*/
-function addCode() {
-    document.getElementById("add_after_me").insertAdjacentHTML("afterend", "<h3>This is the text which has been inserted by JS</h3>");
-}
