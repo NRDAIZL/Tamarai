@@ -1,6 +1,6 @@
 function ValidateName(field)
 {
-  if (field === '')
+  if (field == '')
   {
     document.getElementById('Uerror').innerHTML='Enter a valid username';
     document.getElementById('Uerror').style.display='block';
@@ -15,7 +15,7 @@ function ValidateName(field)
 }   
 function ValidatePass(field)
 {
-  if (field === '')
+  if (field == '')
   {
     document.getElementById('Perror').innerHTML='Enter a valid password';
     document.getElementById('Perror').style.display='block';
