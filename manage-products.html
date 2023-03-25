@@ -1,15 +1,18 @@
-<meta http-equiv="X-UA-Compatible" content="IE=edge">
-<meta name="viewport" content="width=device-width, initial-scale=1.0">
-<title>Add new product</title>
-<link rel="stylesheet" href="CSS/userHome.css">
+<!DOCTYPE html>
 
-<link rel="stylesheet" href="nadine-temp-ss.css">
-<script src="https://kit.fontawesome.com/6baebf3609.js" crossorigin="anonymous"></script>
+<head>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Add new product</title>
+    <link rel="stylesheet" hrsef="CSS/userHome.css">
 
-<link rel="stylesheet" href="add.css">
-<link rel="stylesheet" href="productcard.css">
-<link rel="stylesheet" href="manage.css">
+    <link rel="stylesheet" href="CSS/nadine-temp-ss.css">
+    <script src="https://kit.fontawesome.com/6baebf3609.js" crossorigin="anonymous"></script>
 
+    <link rel="stylesheet" href="CSS/add.css">
+    <link rel="stylesheet" href="CSS/productcard.css">
+    <link rel="stylesheet" href="CSS/manage.css">
+</head>
 <style>
     li {
         grid-row-start: auto;
@@ -43,30 +46,19 @@
 </style>
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js">
 </script>
+<script src="//code.jquery.com/jquery-1.10.2.js"></script>
+<script>
+    $(function() {
+        $("#header").load("storenavii.html");
+        $("#chatbox").load("chattin.html");
+    });
+</script>
 
 <body>
     <div class="grid-container">
 
         <div class="header">
-            <section id="navi">
-
-                <ul id="navbar">
-                    <li>
-                        <i class="fa-solid fa-spa"></i>
-                    </li>
-                    <li>
-                        <a href="store-analysis.html">Analysis</a>
-                    </li>
-                    <li>
-                        <a href="manage-products.html">Listings</a>
-                    </li>
-                    <li>
-                        <a href="store-info.html">Info</a>
-                    </li>
-
-                </ul>
-                <a href=""><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
-            </section>
+            <div id="header"></div>
         </div>
         <div class="body">
 
@@ -186,6 +178,9 @@
             </div>
 
         </div>
+    </div>
+    <div class="chatbox">
+        <div id="chatbox"></div>
     </div>
 </body>
 
