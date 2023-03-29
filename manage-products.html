@@ -3,8 +3,8 @@
 <head>
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Add new product</title>
-    <link rel="stylesheet" hrsef="CSS/userHome.css">
+    <title>Your Listings</title>
+    <link rel="stylesheet" href="CSS/userHome.css">
 
     <link rel="stylesheet" href="CSS/nadine-temp-ss.css">
     <script src="https://kit.fontawesome.com/6baebf3609.js" crossorigin="anonymous"></script>
@@ -41,8 +41,6 @@
     .itemslist>* {
         min-width: 0px;
     }
-    
-    #myList {}
 </style>
 <script type="text/javascript" src="https://code.jquery.com/jquery-2.1.4.min.js">
 </script>
@@ -66,114 +64,64 @@
                 <div class="headoflist">
                     <div class="buttons">
                         <button type="button" role="button" class="buttonadd btn js-add-btn" onclick="window.location.href = '';">Delete
-                        Item</button>
+                            Item</button>
                         <button type="button" role="button" class="buttonadd" onclick="window.location.href = 'add_product.html';">Add New Item</button>
                     </div>
-                    <ul class="itemslist">
-                        <div class="product-card" id="product-card" id="add_after_me">
-                            <div class="product-image">
-                                <img src="photos/card1.webp" class="product-thumb" alt="Dress">
-                                <button class="card-btn">Edit</button>
-                            </div>
-                            <div class="product-info">
-                                <h2 class="product-brand">Brand</h2>
-                                <p class="product-short-des">Summer dress.</p>
-                                <span class="price">100L.E.</span>
-                                <span class="actual-price">200L.E.</span>
-                            </div>
-                        </div>
-                        <div class="product-card" id="product-card" id="add_after_me">
-                            <div class="product-image">
-                                <img src="photos/card2.webp" class="product-thumb" alt="Dress">
-                                <button class="card-btn">Edit</button>
-                            </div>
-                            <div class="product-info">
-                                <h2 class="product-brand">Brand</h2>
-                                <p class="product-short-des">Summer dress.</p>
-                                <span class="price">100L.E.</span>
-                                <span class="actual-price">200L.E.</span>
-                            </div>
-                        </div>
-                        <div class="product-card" id="product-card" id="add_after_me">
-                            <div class="product-image">
-                                <img src="photos/card3.jpg" class="product-thumb" alt="Dress">
-                                <button class="card-btn">Edit</button>
-                            </div>
-                            <div class="product-info">
-                                <h2 class="product-brand">Brand</h2>
-                                <p class="product-short-des">Summer dress.</p>
-                                <span class="price">100L.E.</span>
-                                <span class="actual-price">200L.E.</span>
-                            </div>
-                        </div>
-                        <div class="product-card" id="product-card" id="add_after_me">
-                            <div class="product-image">
-                                <img src="photos/card4.jpg" class="product-thumb" alt="Dress">
-                                <button class="card-btn">Edit</button>
-                            </div>
-                            <div class="product-info">
-                                <h2 class="product-brand">Brand</h2>
-                                <p class="product-short-des">Summer dress.</p>
-                                <span class="price">100L.E.</span>
-                                <span class="actual-price">200L.E.</span>
-                            </div>
-                        </div>
 
-                    </ul>
-
-                    <!-- 
-                <div class="buttons">
-                    
-                    <button id="addItemButton">Add Item</button>
-
-                </div>  -->
-                    <!--  <div class="card">
-
-                    <div class="imgBox">
-@ -153,36 +65,23 @@
-
-                </div>-->
-
-                    <!--         <ul id="myList">
-                    <li>
-                        <div class="product-card" id="product-card" id="add_after_me">
-                            <div class="product-image">
-                                <span class="discount-tag">50% off</span>
-                                <img src="photos/card3.jpg" class="product-thumb" alt="Dress">
-                                <button class="card-btn">Add to wishlist</button>
-                            </div>
-                            <div class="product-info">
-                                <h2 class="product-brand">Brand</h2>
-                                <p class="product-short-des">Summer dress.</p>
-                                <span class="price">100L.E.</span>
-                                <span class="actual-price">200L.E.</span>
-                            </div>
-                        </div>
-                    </li>
-                <button id="addItemButton">Add Item</button>
-                <ul id="myList">
-                    <li>Sample Item 1</li>
-                </ul>
-
-                <input id="myText">
-                <script src="manage.js">
-                </script>
-
-                    <input id="myText">
-                    <script src="manage.js">
-                    </script>
-            </div>
-
-                </ul>
-        </div>
-
-            </div>-->
                 </div>
-                <div class="footer">
-                    <div class="footer">
 
+                <div class="product-card" id="product-card">
+                    <div class="product-image">
+                        <img src="photos/card1.webp" class="product-thumb" alt="Dress">
+                        <button class="card-btn">Edit</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Brand</h2>
+                        <p class="product-short-des">Summer dress.</p>
+                        <span class="price">100L.E.</span>
+                        <span class="actual-price">200L.E.</span>
                     </div>
                 </div>
+                <div class="product-card" id="product-card">
+                    <div class="product-image">
+                        <img src="photos/card2.webp" class="product-thumb" alt="Dress">
+                        <button class="card-btn">Edit</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Brand</h2>
+                        <p class="product-short-des">Summer dress.</p>
+                        <span class="price">100L.E.</span>
+                        <span class="actual-price">200L.E.</span>
+                    </div>
+                </div>
+                <div class="product-card" id="product-card">
+                    <div class="product-image">
+                        <img src="photos/card3.jpg" class="product-thumb" alt="Dress">
+                        <button class="card-btn">Edit</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Brand</h2>
+                        <p class="product-short-des">Summer dress.</p>
+                        <span class="price">100L.E.</span>
+                        <span class="actual-price">200L.E.</span>
+                    </div>
+                </div>
+                <div class="product-card" id="product-card">
+                    <div class="product-image">
+                        <img src="photos/card4.jpg" class="product-thumb" alt="Dress">
+                        <button class="card-btn">Edit</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Brand</h2>
+                        <p class="product-short-des">Summer dress.</p>
+                        <span class="price">100L.E.</span>
+                        <span class="actual-price">200L.E.</span>
+                    </div>
+                </div>
+
+
+
+
 
             </div>
 

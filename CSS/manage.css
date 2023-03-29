@@ -4,17 +4,39 @@
      border-radius: 5px;
      background-color: #FFF7D6;
      overflow-y: scroll;
+     overflow-x: hidden;
      padding: 20px;
      display: grid;
      /*grid-template-columns: repeat(4, 1fr);*/
      height: auto;
      grid-row-gap: 40px;
      grid-template-rows: 50px 1fr;
-     grid-template-columns: 1fr;
-     grid-template-columns: 1fr 1fr 1fr;
-     grid-template-rows: 50px 1fr 1fr;
+     grid-template-columns: 1fr 1fr;
      column-gap: 15px;
      row-gap: 15px;
+     justify-content: center;
+     /* centers items horizontally */
+     align-items: center;
+     /* centers items vertically */
+ }
+ 
+ @media (max-width: 900px) {
+     .prlist {
+         grid-template-columns: repeat(1, 1fr);
+     }
+ }
+ 
+ @media (max-width: 680px) {
+     .prlist {
+         grid-template-columns: none;
+     }
+ }
+ 
+ @media (min-width: 901px) {
+     .product-card {
+         width: width + 20%;
+         height: auto;
+     }
  }
  
  .buttonadd:focus-visible {
@@ -54,13 +76,34 @@
      text-align: center;
      text-decoration: none;
      touch-action: manipulation;
-     transition: box-shadow .2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
+     transition: box-shadow.2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
      user-select: none;
      -webkit-user-select: none;
      width: auto;
+     -webkit-transition: box-shadow.2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
+     -moz-transition: box-shadow.2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
+     -ms-transition: box-shadow.2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
+     -o-transition: box-shadow.2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
  }
  
  .buttons {
      grid-row: 1;
      grid-column: 2;
+ }
+ 
+ .product-thumb {
+     width: 100%;
+     height: 350px;
+     object-fit: cover;
+ }
+ 
+ .headoflist {
+     grid-column: 1/end;
+ }
+ 
+ .product-card {
+     justify-content: center;
+     /* centers items horizontally */
+     align-items: center;
+     /* centers items vertically */
  }

@@ -25,19 +25,70 @@
         .body {
             grid-template-columns: 3fr 10fr 3fr;
         }
-        
-        .formss {
-            grid-row: 1/end;
-            width: 60vw;
-        }
     </style>
 </head>
 
 <body>
-    <div class="header">
-        <div id="header"></div>
-    </div>
-    <div class="formss">
+    <style>
+        input[type="text"],
+        input[type="url"],
+        input[type="number"],
+        textarea,
+        select {
+            display: block;
+            width: 100%;
+            padding: 10px;
+            border: 2px solid #00A8D4;
+            border-radius: 5px;
+            font-size: 16px;
+            color: #1C4C56;
+            box-sizing: border-box;
+            margin-bottom: 10px;
+        }
+    </style>
+    <div class="grid-container">
+
+        <div class="header">
+            <div id="header"></div>
+        </div>
+        <div class="body">
+            <div class="formss">
+                <form onsubmit="return validateForm()" action="/submit-product" method="POST">
+                    <label for="product-name">Product Name:</label>
+                    <input type="text" id="product-name" name="product_name" placeholder="Enter product name..." required>
+                    <br>
+
+                    <label for="product-description">Product Description:</label>
+                    <textarea id="product-description" name="product_description" placeholder="Enter product description..."></textarea>
+                    <br>
+
+                    <label for="product-price">Price:</label>
+                    <input type="number" id="product-price" name="product_price" step=".01" min="0" placeholder="Enter product price..." required>
+                    <br>
+
+                    <label for="product-image">Image URL:</label>
+                    <input type="url" id="product-image" name="product_image" placeholder="Enter image URL...">
+                    <br>
+
+                    <label for="product-category">Category:</label>
+                    <select id="product-category" name="product_category">
+          <option value="">-- Select category --</option>
+          <option value="books">Books</option>
+          <option value="electronics">Electronics</option>
+          <option value="clothing">Clothing</option>
+          <option value="home">Home &amp; Garden</option>
+        </select>
+                    <br>
+
+                    <label for="product-tags">Tags (comma-separated):</label>
+                    <input type="text" id="product-tags" name="product_tags" placeholder="Enter product tags...">
+                    <br>
+
+                    <button type="submit">Add Product</button>
+                </form>
+            </div>
+        </div>
+        <!-- <div class="formss">
         <form>
             <label for="productname">*Product Name:</label>
             <input type="text" id="productname" name="productname" required minlength="3" maxlength="30" placeholder="Enter your product's name">
@@ -66,14 +117,15 @@
 
         </form>
 
-    </div>
+    </div>-->
 
 
-    <div class="footer">
+        <div class="footer">
 
-    </div>
-    <div class="chatbox">
-        <div id="chatbox"></div>
+        </div>
+        <div class="chatbox">
+            <div id="chatbox"></div>
+        </div>
     </div>
 
 
