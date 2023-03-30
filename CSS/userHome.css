@@ -5,7 +5,9 @@
     margin: 0px;
     padding: 0px;
     box-sizing: border-box;
-    font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
+    font-family: 'poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
 
 .navbar {
@@ -13,7 +15,7 @@
     top: 0px;
     left: 0px;
     width: 100%;
-    background-color: #FFF7D6;
+    background-color: #fff;
     z-index: 9;
 }
 
@@ -43,7 +45,7 @@
     padding: 10px 20px;
     border: none;
     cursor: pointer;
-    background: #FFF7D6;
+    background: #fff;
     color: #1C4C56;
     text-transform: capitalize;
     font-size: 15px;
@@ -65,7 +67,7 @@
 }
 
 .search-bar::placeholder {
-    color: #00A8D4;
+    color: #89bbbb;
 }
 
 .nav_items a {
@@ -98,7 +100,7 @@
 
 .link:hover {
     opacity: 1;
-    background-color: #00A8D4;
+    background-color: #89bbbb;
 }
 
 .section {
@@ -176,7 +178,7 @@
     background: #1C4C56;
     padding: 5px;
     border-radius: 5px;
-    color: #ff7d7d;
+    color: #ff9898;
     right: 10px;
     top: 10px;
     text-transform: capitalize;
@@ -203,7 +205,7 @@
 }
 
 .card-btn:hover {
-    background: #FFF7D6;
+    background: #fff;
 }
 
 .product-brand {
@@ -285,7 +287,7 @@
     left: 50%;
     transform: translate(-50%, -50%);
     text-align: center;
-    color: #FFF7D6;
+    color: #fff;
     font-size: 50px;
     text-transform: capitalize;
 }
