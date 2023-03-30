@@ -1,0 +1,9 @@
+.btn-cancel {
+    float: left;
+    margin: 10px 0 0 18.2%;
+}
+
+.btn-done {
+    float: right;
+    margin: 10px 18.2% 0 0;
+}
