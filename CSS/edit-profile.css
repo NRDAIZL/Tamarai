@@ -69,6 +69,25 @@ button:hover {
     transform: scale(1.1);
 }
 
+input[type="file"] {
+    display: none;
+}
+
+label {
+    box-sizing: border-box;
+    font-size: 20px;
+    background-color: #1C4C56;
+    color: white;
+    border: 1px solid #00A8D4;
+    padding: 2px 15px;
+    transition: all 0.3s;
+}
+
+label:hover {
+    background-color: #00A8D4;
+    color: black;
+}
+
 .btn-cancel {
     float: left;
     margin: 10px 0 0 18.2%;
