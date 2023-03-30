@@ -1,7 +1,13 @@
+*
+{
+    font-family: 'poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
 body{
     margin: 0;
     padding: 0;
-    background: linear-gradient(to bottom right, #E3F0FF, #FAFCFF);
+    background: linear-gradient(to bottom, #89bbbb, #fff);
     height: 100vh;
     display: flex;
     justify-content: center;
@@ -13,7 +19,7 @@ body{
     height: 85%;
     background-color: #ffffff;
     border-radius: 20px;
-    box-shadow: 0px 25px 40px #1687d933;
+    box-shadow: 0px 25px 40px #89bbbb;
     box-shadow: 0px 25px 40px #1C4C56;
      
    }
@@ -27,17 +33,15 @@ body{
    }
    .Heading{
     font-size: 20px;
-    font-family: ‘Open Sans’;
-    font-weight: 700;
-    color: #2F3841;
+    font-weight: 500;
+    color: #0d1516;
    }
    .Action{
     font-size: 14px;
-   font-family: ‘Open Sans’;
    font-weight: 600;
-   color: #f0db87;
+   color: #900;
    cursor: pointer;
-   border-bottom: 1px solid#f0db87;
+   border-bottom: 1px solid#900;
    }
     /* //#1C4C56 */
     /* #f0db87 */
@@ -68,15 +72,13 @@ body{
         padding-top: 5px;
         line-height: 10px;
         font-size: 32px;
-        font-family: ‘Open Sans’;
-        font-weight: 800;
+        font-weight: 500;
         color: #202020;
     }
     .subtitle{
         line-height: 10px;
         font-size: 18px;
-        font-family: ‘Open Sans’;
-        font-weight: 600;
+        font-weight: 500;
         color: #909090;
        }
        .prices{
@@ -85,25 +87,24 @@ body{
        }
        .amount{
         padding-top: 20px;
-        font-size: 26px;
-        font-family: ‘Open Sans’;
-        font-weight: 800;
+        font-size: 25px;
+        font-weight: 750;
         color: #202020;
        }
        .add{
+        text-decoration: none;
         padding-top: 5px;
         font-size: 14px;
-        font-family: ‘Open Sans’;
         font-weight: 600;
         color: #1C4C56;
         cursor: pointer;
        }
        .remove{
+        text-decoration: none;
         padding-top: 5px;
         font-size: 14px;
-        font-family: ‘Open Sans’;
         font-weight: 600;
-        color: #f0db87;
+        color: #900;
         cursor: pointer;
        }
        .counter{
@@ -115,17 +116,16 @@ body{
         text-align: right;
        }
        .btn{
+        text-decoration: none;
         width: 90px;
         height: 90px;
         padding-top: 10px;
         display: flex;
         justify-content: center;
         align-items: center;
-        
         text-align: center;
         font-size: 20px;
-        font-family: ‘Open Sans’;
-        font-weight: 900;
+        font-weight: 750;
         color:  #1C4C56;
         cursor: pointer;
        }
