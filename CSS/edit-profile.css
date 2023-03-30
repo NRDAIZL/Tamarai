@@ -50,7 +50,23 @@ input[type="text"], input[type="email"] {
 input[type="text"]:focus, input[type="email"]:focus {
     border-bottom: 2px solid #00A8D4;
     border-bottom-right-radius: 20px;
-    
+    color: #00A8D4;
+    transition: 0.2s ease;
+}
+
+button {
+    border: 1px solid #00A8D4;
+    background-color: #1C4C56;
+    color: white;
+    height: 30px;
+    width: 100px;
+    border-radius: 5px;
+    margin: 0px;
+    transition: all 0.3s;
+}
+
+button:hover {
+    transform: scale(1.1);
 }
 
 .btn-cancel {
