@@ -12,12 +12,22 @@ body {
     width: 360px;
     height: 600px;
     border: 2px solid #00A8D4;
-    box-shadow: -3px -3px 7px #1C4C56,
-                3px 3px 5px #1C4C56;
+    box-shadow: -3px -3px 7px #1C4C56, 3px 3px 5px #1C4C56;
     border-radius: 5px;
     background-color: #1C4C56;
     margin-top: 50px;
     overflow: hidden;
+}
+
+img {
+    box-sizing: border-box;
+    width: 149px;
+    height: 149px;
+    border-radius: 50%;
+    margin: 0;
+    border: 5px solid #00A8D4;
+    padding: 3px;
+    background-color: #FFF7D6;
 }
 
 .btn-cancel {
