@@ -9,14 +9,15 @@ body {
 
 .box {
     box-sizing: border-box;
-    width: 360px;
-    height: 600px;
+    width: 153px;
+    height: 153px;
     border: 2px solid #00A8D4;
     box-shadow: -3px -3px 7px #1C4C56, 3px 3px 5px #1C4C56;
-    border-radius: 5px;
+    border-radius: 50%;
     background-color: #1C4C56;
     margin-top: 50px;
     overflow: hidden;
+    transition: all 1s;
 }
 
 img {
@@ -28,6 +29,7 @@ img {
     border: 5px solid #00A8D4;
     /* padding: 3px; */
     background-color: #FFF7D6;
+    transition: all 1s;
 }
 
 input[type="text"], input[type="email"] {
@@ -45,6 +47,10 @@ input[type="text"], input[type="email"] {
     font-weight: 400;
     font-size: 15px;
     transition: 0.2s ease;
+}
+
+input[type="text"] {
+    margin-top: 25px;
 }
 
 input[type="text"]:focus, input[type="email"]:focus {
@@ -86,6 +92,18 @@ label {
 label:hover {
     background-color: #00A8D4;
     color: black;
+}
+
+.box:hover {
+    width: 360px;
+    height: 600px;
+    border-radius: 5px;
+}
+
+.box:hover img {
+    width: 100px;
+    height: 100px;
+    margin: 20px 31%;
 }
 
 .btn-cancel {
