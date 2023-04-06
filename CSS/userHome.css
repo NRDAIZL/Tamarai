@@ -10,18 +10,6 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-.search-bar::placeholder {
-    color: #89bbbb;
-}
-
-.nav_items a {
-    margin-left: 20px;
-}
-
-.nav_items a img {
-    width: 30px;
-}
-
 .links {
     width: 100%;
     display: flex;
