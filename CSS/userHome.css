@@ -10,31 +10,6 @@
     font-family: 'Ubuntu', sans-serif;
 }
 
-.links {
-    width: 100%;
-    display: flex;
-    padding: 10px 10vw;
-    justify-content: center;
-    list-style: none;
-    border-top: 1px solid #1C4C56;
-}
-
-.link {
-    text-transform: capitalize;
-    font-size: large;
-    padding: 8px;
-    margin: 0 5px;
-    text-decoration: none;
-    color: #1C4C56;
-    opacity: 0.5;
-    transition: .5s;
-}
-
-.link:hover {
-    opacity: 1;
-    background-color: #89bbbb;
-}
-
 .section {
     width: 100%;
     height: calc(100vh - 120px);
