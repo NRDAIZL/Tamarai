@@ -1,289 +1,313 @@
 <!DOCTYPE html>
 <html lang="en">
 
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Tamarii Home page</title>
-    <link rel="stylesheet" href="CSS/userHome.css">
-    <!-- Add icon library -->
-    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
-    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
-    <script>
+    <head>
+        <meta charset="UTF-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Tamarii Home page</title>
+        <link rel="stylesheet" href="CSS/userHome.css">
+        <!-- Add icon library -->
+        <link rel="stylesheet"
+            href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.7.0/css/font-awesome.min.css">
+        <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+        <script>
         $(function() {
             $("#header").load("");
             $("#chatbox").load("chattin.html");
         });
     </script>
+        <!-- adding an favicon -->
+        <link rel="shortcut icon" type="image/jpg" href="photos/lotus.ico" />
+    </head>
 
-    <!-- adding an favicon -->
-    <link rel="shortcut icon" type="image/jpg" href="photos/lotus.ico" />
-</head>
+    <body>
 
-<body>
-
-    <nav class="navbar"></nav>
-    <script src="JS/nav.js"></script>
-    <header class="section">
-        <div class="content">
-            <img src="photos/icons8-lotus-100.png" class="back" alt="Background">
-            <p class="sub-heading">Best collection of all time.</p>
-        </div>
-    </header>
-    <section class="product">
-        <h2 class="product-category">Best Selling</h2>
-        <button class="pre-btn"><img src="photos/right-arrow.png" alt="left-arrow"></button>
-        <button class="nxt-btn"><img src="photos/right-arrow.png" alt="right-arrow"></button>
-        <div class="product-container">
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <!-- <img src="photos/card1.webp" class="product-thumb" alt="Dress"> -->
-                    <a href="detail.summerDress.html"> <img src="photos/card1.webp" class="product-thumb" alt="Dress"></a>
-                    <button class="card-btn">Add to wishlist</button>
+        <nav class="navbar">
+            
+        </nav>
+        <script src="JS/nav.js"></script>
+        <header class="section">
+            <div class="content">
+                <img src="photos/icons8-lotus-100.png" class="back"
+                    alt="Background">
+                <p class="sub-heading">Best collection of all time.</p>
+            </div>
+        </header>
+        <section class="product">
+            <h2 class="product-category">Best Selling</h2>
+            <button class="pre-btn"><img src="photos/right-arrow.png"
+                    alt="left-arrow"></button>
+            <button class="nxt-btn"><img src="photos/right-arrow.png"
+                    alt="right-arrow"></button>
+            <div class="product-container">
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">50% off</span>
+                        <!-- <img src="photos/card1.webp" class="product-thumb" alt="Dress"> -->
+                        <a href="detail.summerDress.html"> <img
+                                src="photos/card1.webp" class="product-thumb"
+                                alt="Dress"></a>
+                        <button class="card-btn">Add to wishlist</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Brand</h2>
+                        <p class="product-short-des">Summer dress.</p>
+                        <span class="price">150L.E.</span>
+                        <span class="actual-price">300L.E.</span>
+                    </div>
                 </div>
-                <div class="product-info">
-                    <h2 class="product-brand">Brand</h2>
-                    <p class="product-short-des">Summer dress.</p>
-                    <span class="price">150L.E.</span>
-                    <span class="actual-price">300L.E.</span>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">50% off</span>
+                        <!-- <img src="photos/card2.webp" class="product-thumb" alt="Dress"> -->
+                        <a href="detail.card2.html"> <img
+                                src="photos/card2.webp" class="product-thumb"
+                                alt="Dress"></a>
+                        <button class="card-btn">Add to wishlist</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Brand</h2>
+                        <p class="product-short-des">Floral dress.</p>
+                        <span class="price">175L.E.</span>
+                        <span class="actual-price">350L.E.</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">50% off</span>
+                        <!-- <img src="photos/card3.jpg" class="product-thumb" alt="Dress"> -->
+                        <a href="summerdress2.html"> <img src="photos/card3.jpg"
+                                class="product-thumb" alt="Dress"></a>
+                        <button class="card-btn">Add to wishlist</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Brand</h2>
+                        <p class="product-short-des">Summer dress.</p>
+                        <span class="price">100L.E.</span>
+                        <span class="actual-price">200L.E.</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">50% off</span>
+                        <img src="photos/card4.jpg" class="product-thumb"
+                            alt="Dress">
+                        <button class="card-btn">Add to wishlist</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Brand</h2>
+                        <p class="product-short-des">Earrings</p>
+                        <span class="price">60L.E.</span>
+                        <span class="actual-price">120L.E.</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">50% off</span>
+                        <!-- <img src="photos/card1.webp" class="product-thumb" alt="Dress"> -->
+                        <a href="detail.summerDress.html"> <img
+                                src="photos/card1.webp" class="product-thumb"
+                                alt="Dress"></a>
+                        <button class="card-btn">Add to wishlist</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Brand</h2>
+                        <p class="product-short-des">Summer dress.</p>
+                        <span class="price">150L.E.</span>
+                        <span class="actual-price">300L.E.</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">50% off</span>
+                        <!-- <img src="photos/card2.webp" class="product-thumb" alt="Dress"> -->
+                        <a href="detail.card2.html"> <img
+                                src="photos/card2.webp" class="product-thumb"
+                                alt="Dress"></a>
+                        <button class="card-btn">Add to wishlist</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Brand</h2>
+                        <p class="product-short-des">Floral dress.</p>
+                        <span class="price">175L.E.</span>
+                        <span class="actual-price">350L.E.</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">50% off</span>
+                        <!-- <img src="photos/card3.jpg" class="product-thumb" alt="Dress"> -->
+                        <a href="summerdress2.html"> <img src="photos/card3.jpg"
+                                class="product-thumb" alt="Dress"></a>
+                        <button class="card-btn">Add to wishlist</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Brand</h2>
+                        <p class="product-short-des">Summer dress.</p>
+                        <span class="price">100L.E.</span>
+                        <span class="actual-price">200L.E.</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">50% off</span>
+                        <img src="photos/card4.jpg" class="product-thumb"
+                            alt="Dress">
+                        <button class="card-btn">Add to wishlist</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Brand</h2>
+                        <p class="product-short-des">Earrings</p>
+                        <span class="price">60L.E.</span>
+                        <span class="actual-price">120L.E.</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">50% off</span>
+                        <!-- <img src="photos/card1.webp" class="product-thumb" alt="Dress"> -->
+                        <a href="detail.summerDress.html"> <img
+                                src="photos/card1.webp" class="product-thumb"
+                                alt="Dress"></a>
+                        <button class="card-btn">Add to wishlist</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Brand</h2>
+                        <p class="product-short-des">Summer dress.</p>
+                        <span class="price">150L.E.</span>
+                        <span class="actual-price">300L.E.</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">50% off</span>
+                        <!-- <img src="photos/card2.webp" class="product-thumb" alt="Dress"> -->
+                        <a href="detail.card2.html"> <img
+                                src="photos/card2.webp" class="product-thumb"
+                                alt="Dress"></a>
+                        <button class="card-btn">Add to wishlist</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Brand</h2>
+                        <p class="product-short-des">Floral dress.</p>
+                        <span class="price">175L.E.</span>
+                        <span class="actual-price">350L.E.</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">50% off</span>
+                        <!-- <img src="photos/card3.jpg" class="product-thumb" alt="Dress"> -->
+                        <a href="summerdress2.html"> <img src="photos/card3.jpg"
+                                class="product-thumb" alt="Dress"></a>
+                        <button class="card-btn">Add to wishlist</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Brand</h2>
+                        <p class="product-short-des">Summer dress.</p>
+                        <span class="price">100L.E.</span>
+                        <span class="actual-price">200L.E.</span>
+                    </div>
+                </div>
+                <div class="product-card">
+                    <div class="product-image">
+                        <span class="discount-tag">50% off</span>
+                        <img src="photos/card4.jpg" class="product-thumb"
+                            alt="Dress">
+                        <button class="card-btn">Add to wishlist</button>
+                    </div>
+                    <div class="product-info">
+                        <h2 class="product-brand">Brand</h2>
+                        <p class="product-short-des">Earrings</p>
+                        <span class="price">60L.E.</span>
+                        <span class="actual-price">120L.E.</span>
+                    </div>
                 </div>
             </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <!-- <img src="photos/card2.webp" class="product-thumb" alt="Dress"> -->
-                    <a href="detail.card2.html"> <img src="photos/card2.webp" class="product-thumb" alt="Dress"></a>
-                    <button class="card-btn">Add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">Brand</h2>
-                    <p class="product-short-des">Floral dress.</p>
-                    <span class="price">175L.E.</span>
-                    <span class="actual-price">350L.E.</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <!-- <img src="photos/card3.jpg" class="product-thumb" alt="Dress"> -->
-                    <a href="summerdress2.html"> <img src="photos/card3.jpg" class="product-thumb" alt="Dress"></a>
-                    <button class="card-btn">Add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">Brand</h2>
-                    <p class="product-short-des">Summer dress.</p>
-                    <span class="price">100L.E.</span>
-                    <span class="actual-price">200L.E.</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="photos/card4.jpg" class="product-thumb" alt="Dress">
-                    <button class="card-btn">Add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">Brand</h2>
-                    <p class="product-short-des">Earrings</p>
-                    <span class="price">60L.E.</span>
-                    <span class="actual-price">120L.E.</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <!-- <img src="photos/card1.webp" class="product-thumb" alt="Dress"> -->
-                    <a href="detail.summerDress.html"> <img src="photos/card1.webp" class="product-thumb" alt="Dress"></a>
-                    <button class="card-btn">Add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">Brand</h2>
-                    <p class="product-short-des">Summer dress.</p>
-                    <span class="price">150L.E.</span>
-                    <span class="actual-price">300L.E.</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <!-- <img src="photos/card2.webp" class="product-thumb" alt="Dress"> -->
-                    <a href="detail.card2.html"> <img src="photos/card2.webp" class="product-thumb" alt="Dress"></a>
-                    <button class="card-btn">Add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">Brand</h2>
-                    <p class="product-short-des">Floral dress.</p>
-                    <span class="price">175L.E.</span>
-                    <span class="actual-price">350L.E.</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <!-- <img src="photos/card3.jpg" class="product-thumb" alt="Dress"> -->
-                    <a href="summerdress2.html"> <img src="photos/card3.jpg" class="product-thumb" alt="Dress"></a>
-                    <button class="card-btn">Add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">Brand</h2>
-                    <p class="product-short-des">Summer dress.</p>
-                    <span class="price">100L.E.</span>
-                    <span class="actual-price">200L.E.</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="photos/card4.jpg" class="product-thumb" alt="Dress">
-                    <button class="card-btn">Add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">Brand</h2>
-                    <p class="product-short-des">Earrings</p>
-                    <span class="price">60L.E.</span>
-                    <span class="actual-price">120L.E.</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <!-- <img src="photos/card1.webp" class="product-thumb" alt="Dress"> -->
-                    <a href="detail.summerDress.html"> <img src="photos/card1.webp" class="product-thumb" alt="Dress"></a>
-                    <button class="card-btn">Add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">Brand</h2>
-                    <p class="product-short-des">Summer dress.</p>
-                    <span class="price">150L.E.</span>
-                    <span class="actual-price">300L.E.</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <!-- <img src="photos/card2.webp" class="product-thumb" alt="Dress"> -->
-                    <a href="detail.card2.html"> <img src="photos/card2.webp" class="product-thumb" alt="Dress"></a>
-                    <button class="card-btn">Add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">Brand</h2>
-                    <p class="product-short-des">Floral dress.</p>
-                    <span class="price">175L.E.</span>
-                    <span class="actual-price">350L.E.</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <!-- <img src="photos/card3.jpg" class="product-thumb" alt="Dress"> -->
-                    <a href="summerdress2.html"> <img src="photos/card3.jpg" class="product-thumb" alt="Dress"></a>
-                    <button class="card-btn">Add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">Brand</h2>
-                    <p class="product-short-des">Summer dress.</p>
-                    <span class="price">100L.E.</span>
-                    <span class="actual-price">200L.E.</span>
-                </div>
-            </div>
-            <div class="product-card">
-                <div class="product-image">
-                    <span class="discount-tag">50% off</span>
-                    <img src="photos/card4.jpg" class="product-thumb" alt="Dress">
-                    <button class="card-btn">Add to wishlist</button>
-                </div>
-                <div class="product-info">
-                    <h2 class="product-brand">Brand</h2>
-                    <p class="product-short-des">Earrings</p>
-                    <span class="price">60L.E.</span>
-                    <span class="actual-price">120L.E.</span>
-                </div>
-            </div>
-        </div>
-    </section>
-    <!-- Collections -->
-    <section class="collection-container">
-        <a href="" class="collection">
-            <img src="photos/women's-collection.jpg" alt="Women collection">
-            <p class="collection-title">Women <br> apparels</p>
-        </a>
-        <a href="" class="collection">
-            <img src="photos/men's-collection.jpg" alt="Men's collection">
-            <p class="collection-title">Men <br> apparels</p>
-        </a>
-        <a href="" class="collection">
-            <img src="photos/accessories.jpeg" alt="Accessories">
-            <p class="collection-title">Accessories</p>
-        </a>
-    </section>
-    <footer>
-        <div class="footer-content">
-            <!-- <img src="photos/Thamaraii.png" class="logo" alt="Thamaraii Logo"> -->
-            <img src="photos/lotus.ico" class="logo" alt="Thamaraii Logo">
-            <div class="footer-ul-container">
-                <ul class="category">
-                    <li class="category-title">Men</li>
-                    <li><a href="" class="footer-link">T-shirts</a></li>
-                    <li><a href="" class="footer-link">SweatShirts</a></li>
-                    <li><a href="" class="footer-link">Shirts</a></li>
-                    <li><a href="" class="footer-link">Jeans</a></li>
-                    <li><a href="" class="footer-link">Trousers</a></li>
-                    <li><a href="" class="footer-link">Shoes</a></li>
-                    <li><a href="" class="footer-link">Casuals</a></li>
-                    <li><a href="" class="footer-link">Formals</a></li>
-                    <li><a href="" class="footer-link">Sportive</a></li>
-                </ul>
-                <ul class="category">
-                    <li class="category-title">Women</li>
-                    <li><a href="" class="footer-link">T-shirts</a></li>
-                    <li><a href="" class="footer-link">SweatShirts</a></li>
-                    <li><a href="" class="footer-link">Shirts</a></li>
-                    <li><a href="" class="footer-link">Jeans</a></li>
-                    <li><a href="" class="footer-link">Trousers</a></li>
-                    <li><a href="" class="footer-link">Shoes</a></li>
-                    <li><a href="" class="footer-link">Casuals</a></li>
-                    <li><a href="" class="footer-link">Formals</a></li>
-                    <li><a href="" class="footer-link">Sportive</a></li>
-                </ul>
-                <!-- <ul class="category">
+        </section>
+        <!-- Collections -->
+        <section class="collection-container">
+            <a href="" class="collection">
+                <img src="photos/women's-collection.jpg" alt="Women collection">
+                <p class="collection-title">Women <br> apparels</p>
+            </a>
+            <a href="" class="collection">
+                <img src="photos/men's-collection.jpg" alt="Men's collection">
+                <p class="collection-title">Men <br> apparels</p>
+            </a>
+            <a href="" class="collection">
+                <img src="photos/accessories.jpeg" alt="Accessories">
+                <p class="collection-title">Accessories</p>
+            </a>
+        </section>
+        <footer>
+            <div class="footer-content">
+                <!-- <img src="photos/Thamaraii.png" class="logo" alt="Thamaraii Logo"> -->
+                <img src="photos/lotus.ico" class="logo" alt="Thamaraii Logo">
+                <div class="footer-ul-container">
+                    <ul class="category">
+                        <li class="category-title">Men</li>
+                        <li><a href="" class="footer-link">T-shirts</a></li>
+                        <li><a href="" class="footer-link">SweatShirts</a></li>
+                        <li><a href="" class="footer-link">Shirts</a></li>
+                        <li><a href="" class="footer-link">Jeans</a></li>
+                        <li><a href="" class="footer-link">Trousers</a></li>
+                        <li><a href="" class="footer-link">Shoes</a></li>
+                        <li><a href="" class="footer-link">Casuals</a></li>
+                        <li><a href="" class="footer-link">Formals</a></li>
+                        <li><a href="" class="footer-link">Sportive</a></li>
+                    </ul>
+                    <ul class="category">
+                        <li class="category-title">Women</li>
+                        <li><a href="" class="footer-link">T-shirts</a></li>
+                        <li><a href="" class="footer-link">SweatShirts</a></li>
+                        <li><a href="" class="footer-link">Shirts</a></li>
+                        <li><a href="" class="footer-link">Jeans</a></li>
+                        <li><a href="" class="footer-link">Trousers</a></li>
+                        <li><a href="" class="footer-link">Shoes</a></li>
+                        <li><a href="" class="footer-link">Casuals</a></li>
+                        <li><a href="" class="footer-link">Formals</a></li>
+                        <li><a href="" class="footer-link">Sportive</a></li>
+                    </ul>
+                    <!-- <ul class="category">
                     <li class="category-title">Get Help</li>
                     <li><a href="" class="footer-link">Help Center</a></li>
                     <li><a href="" class="footer-link">Privacy Policy</a></li>
                     <li><a href="" class="footer-link">Terms</a></li>
                     <li><a href="" class="footer-link">Login</a></li>
                 </ul> -->
+                </div>
             </div>
-        </div>
-        <p class="footer-title">About US</p>
-        <p class="info">Text Here......</p>
-        <p class="info">Support Emails - help@tamarai.com, support@tamarai.com</p>
-        <p class="info">Telephone - 0123456789</p>
-        <div class="footer-social-container">
-            <div>
-                <a href="" class="social-link">Terms & Services</a>
-                <a href="" class="social-link">Privacy & Policy</a>
+            <p class="footer-title">About US</p>
+            <p class="info">Text Here......</p>
+            <p class="info">Support Emails - help@tamarai.com,
+                support@tamarai.com</p>
+            <p class="info">Telephone - 0123456789</p>
+            <div class="footer-social-container">
+                <div>
+                    <a href="" class="social-link">Terms & Services</a>
+                    <a href="" class="social-link">Privacy & Policy</a>
+                </div>
+                <div>
+                    <a href="" class="social-link fa fa-facebook"></a>
+                    <a href="" class="social-link fa fa-instagram"></a>
+                    <a href="" class="social-link fa fa-twitter"></a>
+                    <a href="" class="social-link fa fa-google"></a>
+                    <a href="" class="social-link fa fa-yahoo"></a>
+                    <a href="" class="social-link fa fa-snapchat-ghost"></a>
+                </div>
             </div>
-            <div>
-                <a href="" class="social-link fa fa-facebook"></a>
-                <a href="" class="social-link fa fa-instagram"></a>
-                <a href="" class="social-link fa fa-twitter"></a>
-                <a href="" class="social-link fa fa-google"></a>
-                <a href="" class="social-link fa fa-yahoo"></a>
-                <a href="" class="social-link fa fa-snapchat-ghost"></a>
-            </div>
-        </div>
-        <p class="footer-credit">Thamaraii, Best Online store.</p>
-    </footer>
-    <!-- putting scripts here to work -->
-    <script src="JS/home.js"></script>
+            <p class="footer-credit">Thamaraii, Best Online store.</p>
+        </footer>
+        <!-- putting scripts here to work -->
+        <script src="JS/home.js"></script>
 
 
-    <div class="chatbox">
-        <div id="chatbox"></div>
-    </div>
-</body>
+        <div class="chatbox">
+            <div id="chatbox"></div>
+        </div>
+    </body>
 
 
 
