@@ -95,7 +95,7 @@ nav {
     height: 65px;
     background: var(--color1);
     align-items: center;
-    display: flex;
+    display: block;
 }
 
 .navbar {
@@ -110,25 +110,30 @@ nav {
 .input_search {
     border-radius: 20px;
     padding:  5px;
-    border: 1px solid #89bbbb;
+    border: 2px solid #89bbbb;
+    width: 100%;
     max-width: 500px;
     background: #fff;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+    position: absolute;
+    top : 15px;
 }
 
 .input_search input {
     width: 100%;
     outline: none;
     border: none;
-
 }
 
 .nav_li {
     width: 100%;
     min-width: 500px;
+    position: absolute;
+    top : 15px;
+    left : 450px;
 }
 
 .nav_li ul {
@@ -170,6 +175,7 @@ nav {
     padding: 5px;
     font-size: 18px;
     position: absolute;
+    top : 15px;
     right: 30px;
     outline:none;
     border: 2px solid #89bbbb;
@@ -183,6 +189,8 @@ nav {
     -o-border-radius: 20px;
 }
 .nav_logo{
+    position: absolute;
+    top : 30px;
     padding-left: 100px;
 }
 
