@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/MainStyleSheet.css">
     <title>
         User Login
@@ -22,12 +23,12 @@
         </div>
         <form action="User-Homepage.html" method="get" class="form" onsubmit="return Validation(this)">
             <div class="users">
-                <label for="username"> username </label>
+                <!-- <label for="username"> username </label> -->
                 <input id="username" type="text" placeholder="username" > <br>
                 <span id="Uerror">error</span>
             </div>
             <div class="passes">
-                <label for="password"> password </label>
+                <!-- <label for="password"> password </label> -->
                 <input id="password" type="password" placeholder="password"> <br>
                 <span id="Perror">error</span>
             </div>
@@ -37,6 +38,10 @@
         </form>
     </div>
     <div class="URegbk">
+        <!-- <div class="shaper">
+            <div class="liquy">
+            </div>
+        </div> -->
         <h3 class="welcomes">Welcome Aboard!</h3>
         <div class="wordings"> You new here? Experience all <br> the fun, Join us now! </div>
         <a href="User-Register.html"><button class = "URbutton">Sign Up</button></a>
