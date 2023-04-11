@@ -141,3 +141,11 @@ let items2 =Number(document.querySelector('.count2').innerText);
 let total_items =Number(items1+items2);
 document.querySelector('.items').innerText=total_items;
 }
+function remove_all()
+{
+    let empty=" ";
+    document.querySelector('.Cart-Items').innerHTML=" ";
+    document.querySelector('.Cart-Items2').innerHTML=" ";
+    document.querySelector('.checkout').innerHTML=" ";
+    alert("all items are going to be remeoved")
+}
