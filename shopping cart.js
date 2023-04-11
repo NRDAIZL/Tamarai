@@ -149,3 +149,14 @@ function remove_all()
     document.querySelector('.checkout').innerHTML=" ";
     alert("all items are going to be remeoved")
 }
+function remove_element()
+{
+    document.querySelector('.total-amount').innerText=Number(document.querySelector('.amount2').innerText);
+    document.querySelector('.Cart-Items').innerHTML=document.querySelector('.Cart-Items2').innerHTML;
+    document.querySelector('.Cart-Items2').innerHTML=" ";
+    document.querySelector('.items').innerText=Number(document.querySelector('.count2').innerText);
+    //  if(document.querySelector('.Cart-Items2').innerHTML==" ")
+    //  {
+    //     document.querySelector('.Cart-Items').innerHTML=" ";
+    //  }
+}
