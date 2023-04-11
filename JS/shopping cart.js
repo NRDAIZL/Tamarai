@@ -30,9 +30,15 @@ else if(counter>0){
      document.querySelector('.amount ').innerText=counter*pfor_one_product;
     //  count.innerText = counter;
 }
-var  Sub_Total= Number(document.querySelector('.amount').innerText);
-var Sub_Total2=Number(document.querySelector('.amount2').innerText);
-var Total= Sub_Total+Sub_Total2; 
+else (document.querySelector('.Cart-Items2' ).innerText==" ")
+{
+    document.querySelector('.total-amount').innerText= document.querySelector('.amount ').innerText;
+    document.querySelector('.items').innerText=counter;
+}
+
+let  Sub_Total= Number(document.querySelector('.amount').innerText);
+let Sub_Total2=Number(document.querySelector('.amount2').innerText);
+let Total= Sub_Total+Sub_Total2; 
 document.querySelector('.total-amount').innerHTML=Total;
 
 //# of items
@@ -62,6 +68,12 @@ function decreasing(){
         document.querySelector('.amounst' ).innerText=0;
     }
  
+    else (document.querySelector('.Cart-Items2' ).innerText==" ")
+{
+    document.querySelector('.total-amount').innerText= document.querySelector('.amount ').innerText;
+    document.querySelector('.items').innerText=counter;
+}
+
 }
 var  Sub_Total= Number(document.querySelector('.amount').innerText);
 var Sub_Total2=Number(document.querySelector('.amount2').innerText);
@@ -98,6 +110,12 @@ else if(counter2>0){
      document.querySelector('.amount2').innerText=counter2*pfor_one_product2;
     //  count.innerText = counter;
 }
+else (document.querySelector('.Cart-Items' ).innerText==" ")
+{
+    document.querySelector('.total-amount').innerText= document.querySelector('.amount2 ').innerText;
+    document.querySelector('.items').innerText=counter2;
+}
+
 var  Sub_Total= Number(document.querySelector('.amount').innerText);
 var Sub_Total2=Number(document.querySelector('.amount2').innerText);
 var Total= Sub_Total+Sub_Total2; 
@@ -128,7 +146,12 @@ function decreasing2(){
         price =0;
         document.querySelector('.amount2' ).innerText=0;
     }
- 
+    else (document.querySelector('.Cart-Items' ).innerText==" ")
+    {
+        document.querySelector('.total-amount').innerText= document.querySelector('.amount2 ').innerText;
+        document.querySelector('.items').innerText=counter;
+    }
+    
 }
 var  Sub_Total= Number(document.querySelector('.amount').innerText);
 var Sub_Total2=Number(document.querySelector('.amount2').innerText);
@@ -147,28 +170,48 @@ function remove_all()
     document.querySelector('.Cart-Items').innerHTML=" ";
     document.querySelector('.Cart-Items2').innerHTML=" ";
     document.querySelector('.checkout').innerHTML=" ";
-    alert("all items are going to be remeoved")
+     
 }
 function remove_element()
 {
+    if(document.querySelector('.Cart-Items2').innerHTML !==" "){
     document.querySelector('.total-amount').innerText=Number(document.querySelector('.amount2').innerText);
-    document.querySelector('.Cart-Items').innerHTML=document.querySelector('.Cart-Items2').innerHTML;
-    document.querySelector('.Cart-Items2').innerHTML=" ";
+    // document.querySelector('.Cart-Items').innerHTML=document.querySelector('.Cart-Items2').innerHTML;
+    document.querySelector('.Cart-Items').innerHTML=" ";
     document.querySelector('.items').innerText=Number(document.querySelector('.count2').innerText);
+    
+    }
     //  if(document.querySelector('.Cart-Items2').innerHTML==" ")
     //  {
     //     document.querySelector('.Cart-Items').innerHTML=" ";
     //  }
+    else if(document.querySelector('.Cart-Items2').innerHTML == " ")
+     {
+        document.querySelector('.Cart-Items').innerHTML=" ";
+        document.querySelector('.checkout').innerHTML=" "
+        
+     }
+     else if (document.querySelector('.Cart-Items2').innerHTML ==" "&& document.querySelector('.Cart-Items').innerHTML ==" ") {
+        remove_all();
+     }
 }
 function remove_element2()
 {
-     
+    if(document.querySelector('.Cart-Items').innerHTML !==document.querySelector('.Cart-Items2').innerHTML){
     document.querySelector('.Cart-Items2').innerHTML=" ";
-    document.querySelector('.items').innerText=Number(document.querySelector('.count').innerText);
-    document.querySelector('.total-amount-').innerText=Number(document.querySelector('.amount').innerText);
+    document.querySelector('.checkout').innerHTML=" ";
+    
+    }
+
     // if(document.querySelector('.Cart-Items').innerHTML==" ")
     //  {
     //     document.querySelector('.Cart-Items2').innerHTML=" ";
     //  }
-     
+     else if(document.querySelector('.Cart-Items2').innerHTML == " "){
+       document.querySelector('.Cart-Items').innerHTML=" ";
+       document.querySelector('.checkout').innerHTML=" "
+       document.querySelector('.Cart-Items').innerHTML=document.querySelector('.Cart-Items2').innerHTML;
+       document.querySelector('.Cart-Items2').innerHTML =" ";//  document.querySelector('.Cart-Items').innerHTML=document.querySelector('.Cart-Items2').innerHTML
+    }
+    
 }
