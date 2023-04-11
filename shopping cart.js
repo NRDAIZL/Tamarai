@@ -74,3 +74,38 @@ let items2 =Number(document.querySelector('.count2').innerText);
 let total_items =Number(items1+items2);
 document.querySelector('.items').innerText=total_items;
 }
+function counting2()
+{
+let counter2 =document.querySelector('.count2').innerText;
+let price2= document.querySelector('.amount2').innerText;
+let pfor_one_product2=price2/counter2;
+// {const button = document.querySelector(".btn"); 
+//  const division = document.querySelector(".count"); 
+  
+// let counter =document.querySelector('.count').innerText;
+// let price= document.querySelector('.amount').innerText;
+
+if(document.querySelector('.count2' ).innerText==0)
+{    
+document.querySelector('.count2').innerText='1';
+document.querySelector('.amount2' ).innerText='100';
+
+}
+else if(counter2>0){
+     counter2++;
+      
+     document.querySelector('.count2' ).innerText=counter2;
+     document.querySelector('.amount2').innerText=counter2*pfor_one_product2;
+    //  count.innerText = counter;
+}
+var  Sub_Total= Number(document.querySelector('.amount').innerText);
+var Sub_Total2=Number(document.querySelector('.amount2').innerText);
+var Total= Sub_Total+Sub_Total2; 
+document.querySelector('.total-amount').innerHTML=Total;
+
+ 
+let items1 =Number(document.querySelector('.count').innerText);
+let items2 =Number(document.querySelector('.count2').innerText);
+let total_items =Number(items1+items2);
+document.querySelector('.items').innerText=total_items;
+}
