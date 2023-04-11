@@ -32,7 +32,7 @@ button {
 }
 
 button:hover {
-    color: F7C8E0;
+    color: #1C4C56;
     transform: translateY(-4px);
     -webkit-transform: translateY(-4px);
     -moz-transform: translateY(-4px);
@@ -42,8 +42,8 @@ button:hover {
 
 :root {
     --color1: ##FFF7D6;
-    --border: #00A8D4;
-    --bg-btn: #00A8D4;
+    --border: #89bbbb;
+    --bg-btn: #89bbbb;
 }
 
 /* Global classes */
@@ -95,7 +95,7 @@ nav {
     height: 65px;
     background: var(--color1);
     align-items: center;
-    display: flex;
+    display: block;
 }
 
 .navbar {
@@ -110,25 +110,30 @@ nav {
 .input_search {
     border-radius: 20px;
     padding:  5px;
-    border: 1px solid #00A8D4;
+    border: 2px solid #89bbbb;
+    width: 100%;
     max-width: 500px;
     background: #fff;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
+    position: absolute;
+    top : 15px;
 }
 
 .input_search input {
     width: 100%;
     outline: none;
     border: none;
-
 }
 
 .nav_li {
     width: 100%;
     min-width: 500px;
+    position: absolute;
+    top : 15px;
+    left : 450px;
 }
 
 .nav_li ul {
@@ -140,7 +145,7 @@ nav {
 }
 
 .nav_li ul li:hover {
-    color: #FFF7D6;
+    color: #ffffff;
     transform: translateY(-4px);
     -webkit-transform: translateY(-4px);
     -moz-transform: translateY(-4px);
@@ -157,7 +162,7 @@ nav {
 #search {
     font-size: 18px;
     display: inline-flex;
-    background: #FFF7D6;
+    background: #ffffff;
     width: 40px;
     height: 40px;
     border-radius: 50%;
@@ -169,19 +174,23 @@ nav {
     margin: 3px;
     padding: 5px;
     font-size: 18px;
-    padding-right:3px;
+    position: absolute;
+    top : 15px;
+    right: 30px;
     outline:none;
-    border: 2px solid #00A8D4;
+    border: 2px solid #89bbbb;
     border-radius: 20px;
     cursor: pointer;
-    color: #00A8D4;
-    background: #FFF7D6;
+    color: #89bbbb;
+    background: #ffffff;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
     -o-border-radius: 20px;
 }
 .nav_logo{
+    position: absolute;
+    top : 30px;
     padding-left: 100px;
 }
 
@@ -214,22 +223,22 @@ flex-basis: 50%;
    font-size:35px ; 
 }
 span{
-color: #00A8D4;
+color: #89bbbb;
 }
 .left-col p{
     font-size: 17px;
-    color:#00A8D4;
+    color:#89bbbb;
     margin: 50px 0;
 }
 .btn button{
     padding: 10px 40px;
     margin-right: 30px;
     outline:none;
-    border: 2px solid #00A8D4;
+    border: 2px solid #89bbbb;
     border-radius: 20px;
     cursor: pointer;
-    color: #00A8D4;
-    background: #FFF7D6;
+    color: #89bbbb;
+    background: #fff;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;

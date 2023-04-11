@@ -22,7 +22,7 @@
  }
  
  input[type=submit] {
-     background-color: #00A8D4;
+     background-color: #89bbbb;
      color: white;
      padding: 12px 20px;
      border: none;
@@ -34,25 +34,71 @@
      grid-row: 2/end;
      grid-column: 2;
      border-radius: 5px;
-     background-color: #FFF7D6;
+     background-color: #ffffff;
      overflow-y: scroll;
      padding: 20px;
  }
  
  input[type=submit]:hover {
-     background-color: #ECFCFF;
-     color: #00A8D4;
+     background-color: #ffffff;
+     color: #89bbbb;
  }
  
  .footer {
      position: sticky;
      grid-row: 5;
      grid-column: 1/end;
-     background-color: #ECFCFF;
+     background-color: #ffffff;
  }
  
  .body {
      display: grid;
      grid-template-columns: 1fr 10fr 1fr;
      overflow: hidden;
+ }
+ /* Define global styles */
+ 
+ body {
+     font-family: Arial, sans-serif;
+     color: #1C4C56;
+     background-color: #ffffff;
+     overflow-y: scroll;
+ }
+ 
+ label {
+     display: block;
+     margin-top: 10px;
+     margin-bottom: 5px;
+     font-weight: bold;
+ }
+ 
+ input[type="text"],
+ input[type="url"],
+ input[type="number"],
+ textarea,
+ select {
+     display: block;
+     width: 100%;
+     padding: 10px;
+     border: 2px solid #89bbbb;
+     border-radius: 5px;
+     font-size: 16px;
+     color: #1C4C56;
+     box-sizing: border-box;
+     margin-bottom: 10px;
+ }
+ 
+ button[type="submit"] {
+     background-color: #89bbbb;
+     color: #fff;
+     border: none;
+     border-radius: 5px;
+     padding: 10px 20px;
+     font-size: 16px;
+     cursor: pointer;
+     transition: background-color 0.3s ease-in-out;
+ }
+ 
+ button[type="submit"]:hover {
+     background-color: #1C4C56;
  }

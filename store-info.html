@@ -5,35 +5,28 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="nadine-temp-ss.css">
+    <link rel="stylesheet" href="CSS/nadine-temp-ss.css">
     <script src="https://kit.fontawesome.com/6baebf3609.js" crossorigin="anonymous"></script>
+    <script src="//code.jquery.com/jquery-1.10.2.js"></script>
+    <script>
+        $(function() {
+            $("#header").load("storenavii.html");
+            $("#chatbox").load("chattin.html");
+        });
+    </script>
 
     <title>Analysis</title>
 </head>
 
 <body>
     <div class="grid-container">
-        <div class="header">
-            <section id="navi">
+        <div id="header"></div>
 
-                <ul id="navbar">
-                    <li>
-                        <i class="fa-solid fa-spa"></i>
-                    </li>
-                    <li>
-                        <a href="store-analysis.html">Analysis</a>
-                    </li>
-                    <li>
-                        <a href="manage-products.html">Listings</a>
-                    </li>
-                    <li>
-                        <a href="store-info.html">Info</a>
-                    </li>
 
-                </ul>
-                <a href=""><i class="fa-solid fa-arrow-right-from-bracket"></i></a>
-            </section>
-        </div>
+    </div>
+
+    <div class="chatbox">
+        <div id="chatbox"></div>
     </div>
 </body>
 

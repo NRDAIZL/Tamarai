@@ -1,6 +1,6 @@
 body {
     margin: 0;
-    background-color: #ECFCFF;
+    background-color: #ffffff;
     overflow: hidden;
 }
 
@@ -12,7 +12,7 @@ body {
 h1,
 p {
     text-align: center;
-    color: #00A8D4;
+    color: #89bbbb;
     font-family: Arial;
 }
 
@@ -38,7 +38,7 @@ li {
 
 li a {
     display: block;
-    color: #ECFCFF;
+    color: #ffffff;
     text-align: center;
     padding: 14px 16px;
     text-decoration: none;
@@ -48,14 +48,14 @@ li a {
 /* Change the link color to #111 (black) on hover */
 
 li a:hover {
-    background-color: #ECFCFF;
-    color: #00A8D4;
+    background-color: #ffffff;
+    color: #89bbbb;
 }
 
 #navi {
     display: grid;
     grid-template-columns: 7fr 1fr;
-    background-color: #00A8D4;
+    background-color: #89bbbb;
     align-items: center;
 }
 
@@ -95,18 +95,18 @@ li a:hover {
 
 i.fa-solid.fa-arrow-right-from-bracket {
     /*exit icon styling*/
-    color: #ECFCFF;
+    color: #ffffff;
 }
 
 i.fa-solid.fa-spa {
     /*lotus icon styling*/
-    color: #ECFCFF;
+    color: #ffffff;
     padding: 10px;
     padding-top: 15px;
 }
 
 section#productslist {
-    background-color: #00A8D4;
+    background-color: #89bbbb;
     align-items: center;
 }
 
@@ -118,7 +118,7 @@ section#productslist {
 
 * {
     scrollbar-width: thin;
-    scrollbar-color: #1C4C56 #ECFCFF;
+    scrollbar-color: #1C4C56 #ffffff;
 }
 
 
@@ -129,13 +129,13 @@ section#productslist {
 }
 
 *::-webkit-scrollbar-track {
-    background: #ECFCFF;
+    background: #ffffff;
 }
 
 *::-webkit-scrollbar-thumb {
     background-color: #1C4C56;
     border-radius: 20px;
-    border: 3px solid #ECFCFF;
+    border: 3px solid #ffffff;
 }
 
 .body {
@@ -148,5 +148,5 @@ section#productslist {
     position: sticky;
     grid-row: 5;
     grid-column: 1/end;
-    background-color: #ECFCFF;
+    background-color: #ffffff;
 }
