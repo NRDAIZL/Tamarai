@@ -160,3 +160,15 @@ function remove_element()
     //     document.querySelector('.Cart-Items').innerHTML=" ";
     //  }
 }
+function remove_element2()
+{
+     
+    document.querySelector('.Cart-Items2').innerHTML=" ";
+    document.querySelector('.items').innerText=Number(document.querySelector('.count').innerText);
+    document.querySelector('.total-amount-').innerText=Number(document.querySelector('.amount').innerText);
+    // if(document.querySelector('.Cart-Items').innerHTML==" ")
+    //  {
+    //     document.querySelector('.Cart-Items2').innerHTML=" ";
+    //  }
+     
+}
