@@ -35,13 +35,9 @@ function ValidateMail(field) {
   }
 }
 
-function Validation(form) {
-  let failing = '';
-  failing &= ValidateName(form.username.value.trim());
-  failing &= ValidatePass(form.password.value.trim());
-  failing &= ValidateMail(form.email.value.trim());
-
-  if (failing) {
+function Validation(form) 
+{
+  if (ValidateName(form.username.value.trim()) && ValidatePass(form.password.value.trim()) ) {
     return true;
   }
   else {
