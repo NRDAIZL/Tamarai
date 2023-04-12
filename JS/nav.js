@@ -5,8 +5,12 @@ const creatNav = () => {
             <img src="photos/icons8-lotus-100.png" class="brand-logo" alt="Tamarii Logo">
             <div class="nav_items">
                 <div class="search">
-                    <input type="text" class="search-bar" placeholder="Search for a shop, product !">
-                    <button class="search-btn">Search</button>
+                    <form class="search-box">
+                        <input type="text" placeholder="Search...">
+                        <button type="reset"></button>
+                    </form>
+                    <!-- <input type="text" class="search-bar" placeholder="Search for a shop, product !">
+                    <button class="search-btn">Search</button> -->
                     <a href=""><img src="photos/user2.0.jpg" alt="user"></a>
                     <a href="shopping cart.html"><img src="photos/shoppingCart.jpg" alt="cart"></a>
                     <a href="wishList.html"><img src="photos/wishlist.png" alt="Wishlist"></a>
