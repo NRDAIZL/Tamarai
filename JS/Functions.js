@@ -34,10 +34,33 @@ function ValidateMail(field) {
     return true;
   }
 }
+function ValidateCode(field) {
+  if (field == '') {
+    document.getElementById('Aerror').innerHTML = 'Enter a valid code';
+    document.getElementById('Aerror').style.display = 'block';
+    return false;
+  }
+  else {
+    document.getElementById('Aerror').innerHTML = '';
+    document.getElementById('Aerror').style.display = 'none';
+    return true;
+  }
+}
 
-function Validation(form) 
+function USValidation(form) 
 {
-  if (ValidateName(form.username.value.trim()) && ValidatePass(form.password.value.trim()) ) {
+  if (ValidateName(form.username.value.trim()) && ValidatePass(form.password.value.trim()) ) 
+  {
+    return true;
+  }
+  else {
+    return false;
+  }
+}
+function ASValidation(form) 
+{
+  if (ValidateName(form.username.value.trim()) && ValidatePass(form.password.value.trim()) &&ValidateCode(form.admin-code.value.trim())) 
+  {
     return true;
   }
   else {

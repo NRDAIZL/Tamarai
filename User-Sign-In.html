@@ -2,26 +2,31 @@
 <html>
 
 <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/MainStyleSheet.css">
     <title>
         User Login
     </title>
-    <link rel="shortcut icon" type="image/jpg" href="photos/lotus.ico" />
+    <link rel="shortcut icon" type="image/jpg" href="photos/lotus.ico">
 </head>
 
 <body>
+    
     <div class="Ulogin">
+        <div class="logo">
+            <img src="photos/icons8-lotus-100.png" alt="logz" style="width:75px;height:75px;">
+        </div>
         <div class="Ulogger">
             <h2>Sign in to your account</h2>
             <div class="words">or choose your user</div>
-            <span class="use" style="top: 28%;"><i href="#" ><img src='photos/user.png'/></i></span>
-            <a href="Admin-Sign-In.html"><span class="adds"><i href="#"><img src='photos/settings.png' /></i></span></a>
-            <a href="Vendor-Sign-In.html"><span class="vend"><i href="#"><img src='photos/shopping-bag.png' /></i></span></a>
+            <span class="use" style="top: 28%;"><i href="#" ><img src='photos/user.png' alt="using"/></i></span>
+            <a href="Admin-Sign-In.html"><span class="adds"><i href="#"><img src='photos/settings.png' alt="sets" /></i></span></a>
+            <a href="Vendor-Sign-In.html"><span class="vend"><i href="#"><img src='photos/shopping-bag.png' alt="sells" /></i></span></a>
 
             <div class="line"></div>
         </div>
-        <form action="User-Homepage.html" method="get" class="form" onsubmit="return Validation(this)">
+        <form action="User-Homepage.html" method="get" class="form" onsubmit="return USValidation(this)">
             <div class="users">
                 <!-- <label for="username"> username </label> -->
                 <input id="username" type="text" placeholder="username" > <br>
@@ -38,10 +43,6 @@
         </form>
     </div>
     <div class="URegbk">
-        <!-- <div class="shaper">
-            <div class="liquy">
-            </div>
-        </div> -->
         <h3 class="welcomes">Welcome Aboard!</h3>
         <div class="wordings"> You new here? Experience all <br> the fun, Join us now! </div>
         <a href="User-Register.html"><button class = "URbutton">Sign Up</button></a>

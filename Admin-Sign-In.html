@@ -2,6 +2,7 @@
 <html>
 
 <head>
+    <meta charset="utf-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/MainStyleSheet.css">
     <title>
@@ -15,13 +16,13 @@
         <div class="Alogger">
             <h2>Sign in to your account</h2>
             <div class="words">or choose your user</div>
-            <a href="User-Sign-In.html"><span class="use"><i href="#"><img src='photos/user.png'/></i></span></a>
-            <span class="adds" style="top: 28%;"><i href="#"><img src='photos/settings.png' /></i></span>
-            <a href="Vendor-Sign-In.html"><span class="vend"><i href="#"><img src='photos/shopping-bag.png' /></i></span></a>
+            <a href="User-Sign-In.html"><span class="use"><i href="#"><img src='photos/user.png' alt="using"/></i></span></a>
+            <span class="adds" style="top: 28%;"><i href="#"><img src='photos/settings.png' alt="sets"/></i></span>
+            <a href="Vendor-Sign-In.html"><span class="vend"><i href="#"><img src='photos/shopping-bag.png' alt="sells"/></i></span></a>
 
             <div class="line"></div>
         </div>
-        <form name="former" action="" method="post">
+        <form action="dashboard.html" method="post" class="form" onsubmit="return ASValidation(this)">
             <div class="codey" style="top: 47%;">
                 <input id="admin-code" type="text" placeholder="admin code"> <br>
                 <span class="Aerror"></span>
@@ -35,7 +36,7 @@
                 <span class="Perror"></span>
             </div>
             <span href="#" id="fyp" style="top: 73%;">forgot your password?</span>
-            <a href="dashboard.html"> <button class="ASbutton" type="submit">Sign in</button></a>
+            <button class="ASbutton" type="submit" id="submit">Sign in</button>
         </form>
     </div>
     <script src="JS/Functions.js"></script>

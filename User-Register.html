@@ -1,6 +1,7 @@
 <!DOCTYPE html>
 <html>
     <head>
+        <meta charset="utf-8">
         <meta name="viewport" content="width=device-width, initial-scale=1.0">
         <link rel = "stylesheet" href="CSS/MainStyleSheet.css">
         <title>
@@ -19,12 +20,12 @@
                 <div class = "UReggie">
                     <h2>Sign up to your account</h2>
                     <div class = "words">or choose your user</div>
-                        <span class="use" style="top: 28%; left: 39.5%;"><i href="#" ><img src='photos/user.png'/></i></span>
-                        <a href="Vendor-Register.html"><span class="vend" style="left: 49.5%;"><i href="#"><img src='photos/shopping-bag.png' /></i></span></a>
+                        <span class="use" style="top: 28%; left: 39.5%;"><i href="#" ><img src='photos/user.png' alt="using"/></i></span>
+                        <a href="Vendor-Register.html"><span class="vend" style="left: 49.5%;"><i href="#"><img src='photos/shopping-bag.png' alt="sells"/></i></span></a>
 
                         <div class="line"></div>
                 </div>
-                <form name="formertoo" action="" method="post" >
+                <form name="formertoo" action="User-Sign-In.html" method="post" onsubmit=" return Validation(this)">
                         <div class = "users" style="left: 15%;">
                             <input id = "username" type="text" placeholder="username"> <br>
                             <span class = "Uerror"></span>
@@ -39,6 +40,8 @@
                         </div>
                         <div class = "deb" style="left: 55%;">
                             <input id = "date-of-birth" type="date" placeholder="date"> <br>
+                        </div>
+                        <div class="successfully" id="Success">
                         </div>
                         <button  class = "URbutton" type="submit" style="top: 75%;">Sign up</button>
                 </form>
