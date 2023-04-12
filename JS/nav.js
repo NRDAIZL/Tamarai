@@ -1,14 +1,20 @@
 const creatNav = () => {
     let nav = document.querySelector('.navbar');
     nav.innerHTML = `
-        <div class="nav">
+\        <div class="nav">
             <img src="photos/icons8-lotus-100.png" class="brand-logo" alt="Tamarii Logo">
             <div class="nav_items">
                 <div class="search">
-                    <form class="search-box">
+                    <div class="box">
+                        <input type="text" placeholder="Search...">
+                        <a href="#">
+                            <i class="fas"><img src="photos/search.png"></i>
+                        </a>
+                    </div>
+                    <!-- <form class="search-box">
                         <input type="text" placeholder="Search...">
                         <button type="reset"></button>
-                    </form>
+                    </form> -->
                     <!-- <input type="text" class="search-bar" placeholder="Search for a shop, product !">
                     <button class="search-btn">Search</button> -->
                     <a href=""><img src="photos/user2.0.jpg" alt="user"></a>

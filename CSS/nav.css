@@ -34,8 +34,38 @@
     display: flex;
 }
 
-.search-box {
+.box {
+    height: 30px;
+    display: flex;
+    cursor: pointer;
+    justify-content: center;
+    padding: 10px 20px;
+    background: #FFF7D6;
+    border-radius: 30px;
+    align-items: center;
+    box-shadow: 0 10px 25px #1C4C56;
+}
+
+.box:hover input {
+    width: 380px;
+}
+
+.box input {
+    width: 0;
+    outline: none;
+    border: none;
+    font-weight: 500;
+    transition: 0.8s;
+    background: transparent;
+}
+
+.box a .fas {
+    color: #00A8D4;
     font-size: 20px;
+}
+
+.search-box {
+    font-size: 25px;
     border: solid 0.3em;
     display: inline-block;
     position: relative;
