@@ -59,7 +59,7 @@ function USValidation(form)
 }
 function ASValidation(form) 
 {
-  if (ValidateName(form.username.value.trim()) && ValidatePass(form.password.value.trim()) &&ValidateCode(form.admin-code.value.trim())) 
+  if (ValidateCode(form.admin-code.value.trim()) && ValidateName(form.username.value.trim()) && ValidatePass(form.password.value.trim()) ) 
   {
     return true;
   }
