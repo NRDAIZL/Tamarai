@@ -25,21 +25,24 @@
 
                         <div class="line"></div>
                 </div>
-                <form name="formertoo" action="" method="get" >
+                <form action="#" method="post" onsubmit=" return RegValidation(this)" >
                     <div class = "users" style="left: 15%;">
                         <input id = "username" type="text" placeholder="username"> <br>
-                        <span class = "Uerror"></span>
+                        <span id = "Uerror">error</span>
                     </div>
                     <div class="passes" style="left: 15%;">
                         <input id = "password" type="password" placeholder="password"> <br>
-                        <span class = "Perror"></span>
+                        <span id = "Perror">error</span>
                     </div>
                     <div class = "emai" style="left: 55%;">
                         <input id = "email" type="email" placeholder="example@mail.com"> <br>
-                        <span class = "Eerror"></span>
+                        <span id = "Eerror">error</span>
                     </div>
                     <div class = "deb" style="left: 55%;">
                         <input id = "date-of-birth" type="date" placeholder="date"> <br>
+                    </div>
+                    <div class="successfully" id="Success">
+                        success!
                     </div>
                         <button  class = "VRbutton" type="submit" style="top: 75%;">Sign up</button>
                 </form>
