@@ -169,7 +169,7 @@ label
     left: 33.5%;
     margin: 15px 0;
 }
-#admincode
+#admin-code
 {
     font-size: 15px;
     padding: 5px 35px 5px 3px;
@@ -230,7 +230,7 @@ label
     left: 33.5%;
     margin:15px 0;
 }
-#username, #Ausername
+#username
 {
     font-size: 15px;
     padding: 5px 35px 5px 3px;
@@ -249,7 +249,7 @@ label
     left: 33.5%;
     margin: 15px 0;
 }
-#password ,#Apassword
+#password
 {
     font-size: 15px;
     padding: 5px 35px 5px 3px;
@@ -444,7 +444,7 @@ label
 {
 	color: darkred;
 	background-color: #ffe0e0;
-	padding: 2px;
+	padding: 3px;
     border-radius: 2px;
 	display: none;
 }
@@ -453,7 +453,7 @@ label
 {
 	color: darkred;
 	background-color: #ffe0e0;
-	padding: 2px;
+	padding: 3px;
     border-radius: 2px;
 	display: none;
 }
@@ -461,7 +461,7 @@ label
 {
 	color: darkred;
 	background-color: #ffe0e0;
-	padding: 2px;
+	padding: 3px;
     border-radius: 2px;
 	display: none;
 }
@@ -469,7 +469,7 @@ label
 {
 	color: darkred;
 	background-color: #ffe0e0;
-	padding:2px;
+	padding: 3px;
     border-radius: 2px;
 	display: none;
 }
@@ -478,9 +478,9 @@ label
     display: none;
     color: rgb(0, 139, 88);
 	background-color: #e0ffec;
-	padding: 5px;
-    border-radius: 3px;
-    text-align: center;
+	padding: 3px;
+    border-radius: 2px;
+
 }
 .logo
 {

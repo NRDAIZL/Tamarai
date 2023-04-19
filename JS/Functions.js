@@ -1,15 +1,3 @@
-function ValidateCode(field) {
-  if (field == '') {
-    document.getElementById('Aerror').innerHTML = 'Enter a valid code';
-    document.getElementById('Aerror').style.display = 'block';
-    return false;
-  }
-  else {
-    document.getElementById('Aerror').innerHTML = '';
-    document.getElementById('Aerror').style.display = 'none';
-    return true;
-  }
-}
 function ValidateName(field) {
   if (field == '') {
     document.getElementById('Uerror').innerHTML = 'Enter a valid username';
@@ -46,6 +34,18 @@ function ValidateMail(field) {
     return true;
   }
 }
+function ValidateCode(field) {
+  if (field == '') {
+    document.getElementById('Aerror').innerHTML = 'Enter a valid code';
+    document.getElementById('Aerror').style.display = 'block';
+    return false;
+  }
+  else {
+    document.getElementById('Aerror').innerHTML = '';
+    document.getElementById('Aerror').style.display = 'none';
+    return true;
+  }
+}
 
 function USValidation(form) 
 {
@@ -57,35 +57,13 @@ function USValidation(form)
     return false;
   }
 }
-function URValidation(form) 
-{
-  if (ValidateName(form.username.value.trim()) && ValidatePass(form.password.value.trim()) ) 
-  {
-    return true;
-  }
-  else {
-    return false;
-  }
-}
 function ASValidation(form) 
 {
-  
-  if (ValidateCode(form.admincode.value.trim()) && ValidateName(form.username.value.trim()) && ValidatePass(form.password.value.trim()) ) 
+  if (ValidateCode(form.admin-code.value.trim()) && ValidateName(form.username.value.trim()) && ValidatePass(form.password.value.trim()) ) 
   {
     return true;
   }
   else {
-    return false;
-  }
-}
-function RegValidation(form)
-{
-  if (ValidateName(form.username.value.trim()) && ValidatePass(form.password.value.trim()) && ValidateMail(form.email.value.trim()))
-  {
-    document.getElementById('Success').style.display = 'block';
-    return true;
-  }
-  else{
     return false;
   }
 }
