@@ -46,6 +46,16 @@ function ValidateCode(field) {
     return true;
   }
 }
+function Validation(form) 
+{
+  if (ValidateName(form.username.value.trim()) && ValidatePass(form.password.value.trim()) && ValidateMail(form.email.value.trim())) 
+  {
+    document.getElementById('Success').style.display = 'block';
+  }
+  else {
+    return false;
+  }
+}
 
 function USValidation(form) 
 {
