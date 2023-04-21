@@ -3,7 +3,7 @@
 }
 
 body {
-    background-color: #FFF7D6;
+    background-color: #d6bd91;
 
 }
 
@@ -28,7 +28,7 @@ img {
     margin: 0;
     border: 5px solid #00A8D4;
     /* padding: 3px; */
-    background-color: #FFF7D6;
+    background-color: #d6bd91;
     transition: all 1s;
 }
 

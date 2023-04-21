@@ -16,12 +16,12 @@
   font-family: "Poppins", sans-serif;
 }
 :root {
-  --background-color1: #FFF7D6;
-  --background-color2: #FFF7D6;
-  --background-color3: #FFF7D6;
-  --background-color4: #ECFCFF;
+  --background-color1: #89bbbb;
+  --background-color2: #89bbbb;
+  --background-color3: #89bbbb;
+  --background-color4: #d6bd91;
   --primary-color: #1C4C56;
-  --secondary-color: #00A8D4;
+  --secondary-color: #89bbbb;
   --Border-color: #1C4C56;
   --one-use-color: #1C4C56;
   --two-use-color: #1C4C56;
@@ -39,7 +39,7 @@ header {
   background-color: var(--background-color1);
   position: fixed;
   z-index: 100;
-  box-shadow: 1px 1px 15px #00A8D4;
+  box-shadow: 1px 1px 15px #89bbbb;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -104,7 +104,7 @@ header {
   height: 7px;
   width: 7px;
   position: absolute;
-  background-color: #FFF7D6;
+  background-color: #d6bd91;
   border-radius: 50%;
   left: 19px;
   top: 8px;
@@ -140,7 +140,7 @@ header {
  
 .main::-webkit-scrollbar-thumb {
   background-image:
-        linear-gradient(to bottom,#00A8D4, #00A8D4);
+        linear-gradient(to bottom,#89bbbb, #89bbbb);
 }
 .main::-webkit-scrollbar {
   width: 5px;
@@ -281,7 +281,7 @@ header {
   align-items: center;
   justify-content: space-between;
   padding: 20px 20px 10px 20px;
-  border-bottom: 2px solid #00A8D4;
+  border-bottom: 2px solid #89bbbb;
 }
  
 .recent-Articles {
