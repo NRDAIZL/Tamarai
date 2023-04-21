@@ -18,7 +18,7 @@ const creatNav = () => {
                     </form> -->
                     <!-- <input type="text" class="search-bar" placeholder="Search for a shop, product !">
                     <button class="search-btn">Search</button> -->
-                    <a href=""><img src="photos/user2.0.png" alt="user"></a>
+                    <a href="profile.html"><img src="photos/user2.0.png" alt="user"></a>
                     <a href="shopping cart.html"><img src="photos/shoppingCart.png" alt="cart"></a>
                     <a href="wishList.html"><img src="photos/wishlist.png" alt="Wishlist"></a>
                     <!--<a href="chat.html"><img src="photos/chat.png" alt="chat"></a>-->
