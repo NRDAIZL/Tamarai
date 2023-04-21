@@ -1,3 +1,9 @@
+*
+{
+  font-family: 'poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
+}
 body{
   margin: 0;
   padding: 0;
@@ -12,7 +18,7 @@ body{
   height: 85%;
   background-color: #ffffff;
   border-radius: 20px;
-  box-shadow: 0px 25px 40px #1687d933;
+  box-shadow: 0px 25px 40px #89bbbb;
  }
  .Header{
   margin: auto;
@@ -24,17 +30,15 @@ body{
  }
  .Heading{
   font-size: 20px;
-  font-family: ‘Open Sans’;
   font-weight: 700;
   color: #2F3841;
  }
  .Action{
   font-size: 14px;
- font-family: ‘Open Sans’;
  font-weight: 600;
- color: #E44C4C;
+ color: #900;
  cursor: pointer;
- border-bottom: 1px solid #E44C4C;
+ border-bottom: 1px solid #900;
  }
  .Cart-Items{
   margin: auto;
@@ -62,17 +66,15 @@ body{
  .title{
   padding-top: 5px;
   line-height: 10px;
-  font-size: 32px;
-  font-family: ‘Open Sans’;
-  font-weight: 800;
-  color: #202020;
+  font-size: 22px;
+  font-weight: 600;
+  color: #0d1516;
  }
  .subtitle{
   line-height: 10px;
-  font-size: 18px;
-  font-family: ‘Open Sans’;
-  font-weight: 600;
-  color: #909090;
+  font-size: 15px;
+  font-weight: 300;
+  color: #8e7e64;
  }
  .counter{
   width: 15%;
@@ -89,16 +91,14 @@ body{
   justify-content: center;
   align-items: center;
   font-size: 20px;
-  font-family: ‘Open Sans’;
   font-weight: 900;
-  color: #202020;
+  color: #0d1516;
   cursor: pointer;
  }
  .count{
   font-size: 20px;
-  font-family: ‘Open Sans’;
   font-weight: 900;
-  color: #202020;
+  color: #0d1516;
  }
  .prices{
   height: 100%;
@@ -107,32 +107,28 @@ body{
  .amount{
   padding-top: 20px;
   font-size: 26px;
-  font-family: ‘Open Sans’;
   font-weight: 800;
-  color: #202020;
+  color: #0d1516;
  }
  .save{
   padding-top: 5px;
   font-size: 14px;
-  font-family: ‘Open Sans’;
   font-weight: 600;
-  color: #1687d9;
+  color: #89bbbb;
   cursor: pointer;
  }
  .remove{
   padding-top: 5px;
   font-size: 14px;
-  font-family: ‘Open Sans’;
   font-weight: 600;
-  color: #E44C4C;
+  color: #900;
   cursor: pointer;
  }
  .remove2{
   padding-top: 5px;
   font-size: 14px;
-  font-family: ‘Open Sans’;
   font-weight: 600;
-  color: #E44C4C;
+  color: #900;
   cursor: pointer;
  }
  hr{
@@ -152,20 +148,17 @@ body{
  }
  .Subtotal{
   font-size: 22px;
-  font-family: ‘Open Sans’;
   font-weight: 700;
   color: #202020;
  }
  .items{
   font-size: 16px;
-  font-family: ‘Open Sans’;
   font-weight: 500;
   color: #909090;
   line-height: 10px;
  }
  .total-amount{
   font-size: 36px;
-  font-family: ‘Open Sans’;
   font-weight: 900;
   color: #202020;
  }
@@ -178,7 +171,6 @@ body{
   border-radius: 20px;
   cursor: pointer;
   font-size: 16px;
-  font-family: ‘Open Sans’;
   font-weight: 600;
   color: #202020;
  }
