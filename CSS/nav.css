@@ -1,10 +1,14 @@
 *{
-    margin: 0;
-    padding: 0;
     box-sizing: border-box;
-    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-family: 'poppins', sans-serif;
+    font-family: 'Roboto', sans-serif;
+    font-family: 'Ubuntu', sans-serif;
 }
-
+.title
+{
+    position: absolute;
+    left: 5%;
+}
 .navbar {
     position: sticky;
     top: 0;
@@ -15,13 +19,15 @@
 }
 
 .nav {
-    padding: 10px 10vw;
     display: flex;
-    justify-content: space-between;
+    justify-content: space-between; 
 }
 
 .brand-logo {
-    height: 60px;
+    width:100%;
+    max-width: 6%;
+    height:100%;
+    max-height: 6%;
 }
 
 .nav_items {
@@ -30,20 +36,20 @@
 }
 
 .search {
-    width: 500px;
     display: flex;
 }
 
 .box {
-    height: 30px;
+    height: 25px;
     display: flex;
     cursor: pointer;
     justify-content: center;
-    padding: 10px 20px;
+    padding: 0px;
+    margin-right: 10px;
     background: #d6bd91;
-    border-radius: 30px;
+    border-radius: 15px;
     align-items: center;
-    box-shadow: 0 10px 25px #1C4C56;
+    box-shadow: 0 3px 1px #1C4C56;
 }
 
 .box:hover input {
@@ -60,7 +66,7 @@
 }
 
 .box a .fas {
-    color: #00A8D4;
+    color: #1C4C56;
     font-size: 20px;
 }
 
@@ -92,13 +98,13 @@
     border: 1px solid #d6bd91;
     text-transform: capitalize;
     background: none;
-    color: #00A8D4;
+    color: #89bbbb;
     outline: none;
 }
 
 .search-btn {
     width: 15%;
-    height: 40px;
+    height: 20px;
     padding: 10px 20px;
     border: none;
     outline: none;
@@ -116,6 +122,7 @@
 }
 
 .nav_items a {
+    margin-right: 20px;
     margin-left: 10px;
 }
 
@@ -145,7 +152,8 @@
 
 .link:hover {
     opacity: 1;
-    background-color: #89bbbb;
+    color: #fff;
+    background-color: #1C4C56;
 }
 
 
