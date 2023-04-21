@@ -19,11 +19,11 @@
     margin: 0;
     padding: 0;
     color: #1C4C56;
-    transition: all ease 0.3s;
+    -o-transition: all ease 0.3s;
     -webkit-transition: all ease 0.3s;
     -moz-transition: all ease 0.3s;
     -ms-transition: all ease 0.3s;
-    -o-transition: all ease 0.3s;
+    transition: all ease 0.3s;
 }
 
 button {
@@ -33,11 +33,11 @@ button {
 
 button:hover {
     color: #1C4C56;
-    transform: translateY(-4px);
+    -o-transform: translateY(-4px);
     -webkit-transform: translateY(-4px);
     -moz-transform: translateY(-4px);
     -ms-transform: translateY(-4px);
-    -o-transform: translateY(-4px);
+    transform: translateY(-4px);
 }
 
 :root {
@@ -108,7 +108,7 @@ nav {
 }
 
 .input_search {
-    border-radius: 20px;
+    -o-border-radius: 20px;
     padding:  5px;
     border: 2px solid #89bbbb;
     width: 100%;
@@ -117,7 +117,7 @@ nav {
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    border-radius: 20px;
     position: absolute;
     top : 15px;
 }
@@ -132,7 +132,7 @@ nav {
     width: 100%;
     min-width: 500px;
     position: absolute;
-    top : 15px;
+    top : 35px;
     left : 450px;
 }
 
@@ -146,11 +146,11 @@ nav {
 
 .nav_li ul li:hover {
     color: #ffffff;
-    transform: translateY(-4px);
+    -o-transform: translateY(-4px);
     -webkit-transform: translateY(-4px);
     -moz-transform: translateY(-4px);
     -ms-transform: translateY(-4px);
-    -o-transform: translateY(-4px);
+    transform: translateY(-4px);
 }
 
 .nav_li ul li a {
@@ -175,18 +175,18 @@ nav {
     padding: 5px;
     font-size: 18px;
     position: absolute;
-    top : 15px;
+    top : 35px;
     right: 30px;
     outline:none;
     border: 2px solid #89bbbb;
-    border-radius: 20px;
+    -o-border-radius: 20px;
     cursor: pointer;
     color: #89bbbb;
     background: #ffffff;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    border-radius: 20px;
 }
 .nav_logo{
     position: absolute;
@@ -235,14 +235,14 @@ color: #89bbbb;
     margin-right: 30px;
     outline:none;
     border: 2px solid #89bbbb;
-    border-radius: 20px;
+    -o-border-radius: 20px;
     cursor: pointer;
     color: #89bbbb;
     background: #fff;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
     -ms-border-radius: 20px;
-    -o-border-radius: 20px;
+    border-radius: 20px;
 }
 .btn{
     margin-bottom: 45px;
