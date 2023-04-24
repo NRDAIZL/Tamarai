@@ -25,7 +25,7 @@ h2
     position: absolute;
     top: 5%;
     left: 19%;
-    color: #1c4c56;
+    color: #0d1516;
 }
 h3
 {
@@ -40,7 +40,7 @@ h3
 {
     width: 50%;
     height: 0;
-    border: 1px solid #89bbbb;
+    border: 1px solid #d6bd91;
     margin: 3px;
     display:inline-block;
     position: absolute;
@@ -95,7 +95,7 @@ h3
 .words
 {
     font-size: 20px;
-    color: #1c4c56; 
+    color: #0d1516; 
     position: absolute;
     top: 23%;
     left: 39.5%;
@@ -104,7 +104,7 @@ h3
 label
 {
     font-size: 20px;
-    color: #1c4c56; 
+    color: #0d1516; 
 }
 .use
 {
@@ -176,9 +176,10 @@ label
     border-radius: 2px;
     width: 250px;    
     display: inline-block;
+    color: #d6bd91;
     border: solid;
     border-width: 1px;
-    border-color: #89bbbb;
+    border-color: #d6bd91;
 }
 .emai
 {
@@ -194,14 +195,14 @@ label
     border-radius: 2px;
     width: 250px;
     display: inline-block;
-    color: #89bbbb;
+    color: #d6bd91;
     border: solid;
     border-width: 1px;
-    border-color: #89bbbb;
+    border-color: #d6bd91;
 }
 ::placeholder 
 {
-    color: #89bbbb;
+    color: #b4640c;
     opacity: 1;
 }
 .deb
@@ -218,10 +219,10 @@ label
     border-radius: 2px;
     width: 250px;
     display: inline-block;
-    color: #89bbbb;
+    color: #d6bd91;
     border: solid;
     border-width: 1px;
-    border-color: #89bbbb;
+    border-color: #d6bd91;
 }
 .users
 {
@@ -236,11 +237,11 @@ label
     padding: 5px 35px 5px 3px;
     border-radius: 2px;
     width: 250px;
-    color: #89bbbb;
+    color: #d6bd91;
     display: inline-block;
     border: solid;
     border-width: 1px;
-    border-color: #89bbbb;
+    border-color: #d6bd91;
 }
 .passes
 {
@@ -257,9 +258,9 @@ label
     width: 250px;    
     display: inline-block;
     border: solid;
-    color: #89bbbb;
+    color: #d6bd91;
     border-width: 1px;
-    border-color: #89bbbb;
+    border-color: #d6bd91;
 }
 .USbutton
 {
@@ -319,7 +320,7 @@ label
     right: 0%;
     width: 40%;
     height:100%;
-    background-color: #89bbbb;
+    background-color: #1c4c56;
 }
 .USbk
 {
@@ -329,7 +330,7 @@ label
     left: 0%;
     height:100%;
     width: 40%;
-    background-color: #89bbbb;
+    background-color: #1c4c56;
 }
 .VSbk
 {
@@ -354,7 +355,7 @@ label
     position: absolute;
     top: 70%;
     left: 39%;
-    color: #1c4c56;
+    color: #0d1516;
     font-size: 15px;
     text-decoration: none;
     
