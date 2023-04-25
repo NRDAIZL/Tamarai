@@ -178,3 +178,8 @@ body{
  
      /* //#1C4C56 */
     /* #f0db87 */
+
+    .dark-mode {
+      background-color: black;
+      color: white;
+    }
