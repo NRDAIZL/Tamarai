@@ -38,7 +38,7 @@ const createFooter = () => {
             </ul> -->
         </div>
     </div>
-    <h1 style="text-align: left;" class="footer-title">Tamarii</h1>
+    <h1 style="text-align: left;" class="footer-title">Tamarai</h1>
     <p class="info">We could not have reached this milestone of achievement without you.</p>
     <p class="info">Support Emails - help@tamarai.com, support@tamarai.com</p>
     <p class="info">Telephone - 0123456789</p>
@@ -56,7 +56,7 @@ const createFooter = () => {
             </div>
         </div>
     </div>
-    <p class="footer-credit">Thamaraii, Best Online store.</p>
+    <p class="footer-credit">Tamarai, Best Online store.</p>
     `;
 
 }
