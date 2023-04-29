@@ -7,24 +7,54 @@
         <title>Product name</title>
         <link rel="stylesheet" href="CSS/userHome.css">
         <link rel="stylesheet" href="CSS/product.css">
-        <link rel="shortcut icon" type="image/jpg" href="photos/thebluelogo.png"/>
+        <link rel="shortcut icon" type="image/jpg"
+            href="photos/thebluelogo.png"/>
     </head>
     <body>
         <!-- Navigation bar -->
         <nav class="navbar"></nav>
         <script src="JS/nav.js"></script>
+        <!-- Product Details  -->
+        <!-- Images  -->
         <section class="product-details">
             <div class="image-slider">
                 <div class="product-images">
-                    <img src="photos/card1.webp" class="active" alt="First item photo">
+                    <img src="photos/card1.webp" class="active" alt="First item
+                        photo">
                     <img src="photos/card2.webp" alt="Second item photo">
                     <img src="photos/card3.jpg" alt="Third item photo">
                     <img src="photos/Cardigan.webp" alt="Forth item photo">
                 </div>
             </div>
+            <!-- Description & Size -->
+            <div class="details">
+                <!-- Description -->
+                <h2 class="product-brand">LC walkiki</h2>
+                <p class="product-short-dez">Summer Dress</p>
+                <span class="product-price">500L.E.</span>
+                <span class="product-actual-price-price">250L.E.</span>
+                <span class="product-discount">50% off</span>
+                <!-- Size -->
+                <p class="product-sub-heading">Select size</p>
+                <input type="radio" name="size" value="s" checked hidden
+                    id="s-size">
+                <label for="s-size" class="size-radio-btn check">s</label>
+                <input type="radio" name="size" value="m" hidden id="m-size">
+                <label for="m-size" class="size-radio-btn">m</label>
+                <input type="radio" name="size" value="l" hidden id="l-size">
+                <label for="l-size" class="size-radio-btn">l</label>
+                <input type="radio" name="size" value="xl" hidden id="xl-size">
+                <label for="xl-size" class="size-radio-btn">xl</label>
+                <input type="radio" name="size" value="xxl" hidden
+                    id="xxl-size">
+                <label for="xxl-size" class="size-radio-btn">xxl</label>
+                <!-- Add to cart  -->
+                <button class="btn cart-btn">Add to Cart</button>
+                <button class="btn">Add to Wishlist</button>
+            </div>
         </section>
         <!-- Footer  -->
-        <footer></footer> 
+        <footer></footer>
         <script src="JS/footer.js"></script>
         <!-- Other Javascripts -->
         <script src="JS/home.js"></script>
