@@ -42,8 +42,8 @@ button:hover {
 
 :root {
     --color1: ##FFF7D6;
-    --border: #89bbbb;
-    --bg-btn: #89bbbb;
+    --border: #d6bd91;
+    --bg-btn: #d6bd91;
 }
 
 /* Global classes */
@@ -110,7 +110,7 @@ nav {
 .input_search {
     -o-border-radius: 20px;
     padding:  5px;
-    border: 2px solid #89bbbb;
+    border: 2px solid #d6bd91;
     width: 100%;
     max-width: 500px;
     background: #fff;
@@ -178,10 +178,10 @@ nav {
     top : 35px;
     right: 30px;
     outline:none;
-    border: 2px solid #89bbbb;
+    border: 2px solid #d6bd91;
     -o-border-radius: 20px;
     cursor: pointer;
-    color: #89bbbb;
+    color: #d6bd91;
     background: #ffffff;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
@@ -224,21 +224,21 @@ flex-basis: 50%;
 
 }
 span{
-color: #89bbbb;
+color: #d6bd91;
 }
 .left-col p{
     font-size: 17px;
-    color:#89bbbb;
+    color:#0d1516;
     margin: 50px 0;
 }
 .btn button{
     padding: 10px 40px;
     margin-right: 30px;
     outline:none;
-    border: 2px solid #89bbbb;
+    border: 2px solid #d6bd91;
     -o-border-radius: 20px;
     cursor: pointer;
-    color: #89bbbb;
+    color: #d6bd91;
     background: #fff;
     -webkit-border-radius: 20px;
     -moz-border-radius: 20px;
