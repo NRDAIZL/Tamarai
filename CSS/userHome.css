@@ -82,10 +82,10 @@
 
 .discount-tag {
     position: absolute;
-    background: #1C4C56;
+    background: #89bbbb;
     padding: 5px;
     border-radius: 5px;
-    color: #ff9898;
+    color: black;
     right: 10px;
     top: 10px;
     text-transform: capitalize;
@@ -100,7 +100,8 @@
     width: 90%;
     text-transform: capitalize;
     border: none;
-    background: #1C4C56;
+    color: #fff;
+    background: #89bbbb;
     border: 5px;
     transition: 0.5s;
     cursor: pointer;
@@ -112,6 +113,7 @@
 }
 
 .card-btn:hover {
+    color: black;
     background: #fff;
 }
 

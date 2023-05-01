@@ -29,13 +29,11 @@ h3
     left: 23%;
     color: #ffffff;
 }
-.logoin
+.logo
 {
     top: 0%;
     position: absolute;
     left: 0%;
-    width:8%;
-    height:10%;
 }
 .line {
     width: 50%;
@@ -51,26 +49,72 @@ h3
 .Ulogin 
 {
     position: absolute;
-    top: 0%;
-    left: 0%;
     height: 100%;
-    width: 60%;
     background-color: #ffffff;
-    display: flex;
-    flex-direction: column;
-    justify-content: center;
 }
 
 .URegbk {
     position: absolute;
-    top: 0%;
-    right: 0%;
-    width: 40%;
     height: 100%;
     background-color: #1c4c56;
-    display: flex;
-    flex-direction: column;
 }
+/* phones */
+@media only screen and (max-width: 600px) {
+    
+}
+/* tablets */
+@media only screen and (min-width: 600px) {
+    
+}
+
+/* bigger tablets */
+@media only screen and (min-width: 768px) {
+    .Ulogin{
+        top: 0%;
+        left: 0%;
+        width: 60%;
+        float: left;
+    }
+    .URegbk{
+        top: 0%;
+        right: 0%;
+        float: right;
+        width:40% ;
+    }
+}
+
+/* laptops */
+@media only screen and (min-width: 992px) {
+    .Ulogin{
+        top: 0%;
+        left: 0%;
+        width: 60%;
+        float: left;
+    }
+    .URegbk{
+        top: 0%;
+        right: 0%;
+        float: right;
+        width:40% ;
+    }
+}
+
+/* desktops */
+@media only screen and (min-width: 1200px) {
+    .Ulogin{
+        top: 0%;
+        left: 0%;
+        width: 60%;
+        float: left;
+    }
+    .URegbk{
+        top: 0%;
+        right: 0%;
+        float: right;
+        width:40% ;
+    }
+}
+
 .URegsiter {
     position: absolute;
     top: 0%;
@@ -78,7 +122,6 @@ h3
     height: 100%;
     width: 60%;
     background-color: #ffffff;
-    v
 }
 
 .USbk {
@@ -192,7 +235,7 @@ label {
 
 .codey {
     position: absolute;
-    left: 33.5%;
+    left: 38%;
     margin: 15px 0;
 }
 
@@ -202,10 +245,11 @@ label {
     border-radius: 2px;
     width: 250px;
     display: inline-block;
-    color: #d6bd91;
+    color: #b4640c;
     border: solid;
     border-width: 1px;
     border-color: #d6bd91;
+    align-content: space-between;
 }
 
 .email {
@@ -221,10 +265,11 @@ label {
     border-radius: 2px;
     width: 250px;
     display: inline-block;
-    color: #d6bd91;
+    color: #b4640c;
     border: solid;
     border-width: 1px;
     border-color: #d6bd91;
+    align-content: space-between;
 }
 
 ::placeholder {
@@ -249,6 +294,7 @@ label {
     border: solid;
     border-width: 1px;
     border-color: #d6bd91;
+    align-content: space-between;
 }
 
 .users {
@@ -263,11 +309,12 @@ label {
     padding: 5px 35px 5px 3px;
     border-radius: 2px;
     width: 250px;
-    color: #d6bd91;
+    color: #b4640c;
     display: inline-block;
     border: solid;
     border-width: 1px;
     border-color: #d6bd91;
+    align-content: space-between;
 }
 
 .passes {
@@ -284,9 +331,10 @@ label {
     width: 250px;
     display: inline-block;
     border: solid;
-    color: #d6bd91;
+    color: #b4640c;
     border-width: 1px;
     border-color: #d6bd91;
+    align-content: space-between;
 }
 
 .USbutton {
@@ -372,6 +420,12 @@ label {
     cursor: pointer;
 }
 
+input:autofill
+{
+    color: #b4640c;
+    background-color: #d6bd91;
+}
+
 .URbutton {
     margin: 3px;
     outline: none;
@@ -388,7 +442,7 @@ label {
     text-align: center;
     position: absolute;
     top: 65%;
-    left: 37.5%;
+    left: 40%;
     font-size: 26px;
 }
 
@@ -437,7 +491,7 @@ label {
     text-align: center;
     position: absolute;
     top: 65%;
-    left: 37.5%;
+    left: 40%;
     font-size: 26px;
 }
 
@@ -485,14 +539,6 @@ label {
     padding: 7px;
     border-radius: 2px;
     text-align: center;
-}
-
-.logo {
-
-    max-width: 50%;
-    max-height: 50%;
-    display: block;
-
 }
 
 .tooltip {
