@@ -4,10 +4,15 @@
     font-family: 'poppins', sans-serif;
     font-family: 'Roboto', sans-serif;
     font-family: 'Ubuntu', sans-serif;
+    color: #0d1516;
+    
 }
-
+label
+{
+    color: #0d1516;
+}
 h2 {
-    font-size: 50px;
+    font-size: 3.4vw;
     text-align: center;
     position: absolute;
     top: 5%;
@@ -16,7 +21,7 @@ h2 {
 }
 
 h3 {
-    font-size: 40px;
+    font-size: 2.7vw;
     text-align: center;
     position: absolute;
     top: 20%;
@@ -37,11 +42,14 @@ h3 {
 
 .Ulogin {
     position: absolute;
+    
     top: 0%;
     left: 0%;
     height: 100%;
     width: 60%;
     background-color: #ffffff;
+    display: flex;
+    flex-direction: column;
 }
 
 .URegsiter {
@@ -81,7 +89,7 @@ h3 {
 }
 
 .words {
-    font-size: 20px;
+    font-size: 1.5vw;
     color: #0d1516;
     position: absolute;
     top: 23%;
@@ -89,7 +97,7 @@ h3 {
 }
 
 label {
-    font-size: 20px;
+    font-size: 1.1vw;
     color: #0d1516;
 }
 
@@ -142,7 +150,7 @@ label {
 }
 
 .wordings {
-    font-size: 23px;
+    font-size: 1.4vw;
     text-align: center;
     position: absolute;
     top: 44%;
@@ -157,7 +165,7 @@ label {
 }
 
 #admincode {
-    font-size: 15px;
+    font-size: 0.9vw;
     padding: 5px 35px 5px 3px;
     border-radius: 2px;
     width: 250px;
@@ -168,7 +176,7 @@ label {
     border-color: #d6bd91;
 }
 
-.emai {
+.email {
     position: absolute;
     top: 48%;
     left: 33.5%;
@@ -176,7 +184,7 @@ label {
 }
 
 #email {
-    font-size: 15px;
+    font-size: 0.9vw;
     padding: 5px 35px 5px 3px;
     border-radius: 2px;
     width: 250px;
@@ -200,12 +208,12 @@ label {
 }
 
 #date-of-birth {
-    font-size: 15px;
+    font-size: 0.9vw;
     padding: 5px 35px 5px 3px;
     border-radius: 2px;
     width: 250px;
     display: inline-block;
-    color: #d6bd91;
+    color: #b4640c;
     border: solid;
     border-width: 1px;
     border-color: #d6bd91;
@@ -219,7 +227,7 @@ label {
 }
 
 #username {
-    font-size: 15px;
+    font-size: 0.9vw;
     padding: 5px 35px 5px 3px;
     border-radius: 2px;
     width: 250px;
@@ -238,7 +246,7 @@ label {
 }
 
 #password {
-    font-size: 15px;
+    font-size: 0.9vw;
     padding: 5px 35px 5px 3px;
     border-radius: 2px;
     width: 250px;
@@ -306,11 +314,13 @@ label {
     right: 0%;
     width: 40%;
     height: 100%;
+    display: flex;
     background-color: #1c4c56;
 }
 
 .USbk {
     position: absolute;
+    /* display: flex; */
     float: left;
     top: 0%;
     left: 0%;
@@ -340,9 +350,9 @@ label {
 #fyp {
     position: absolute;
     top: 70%;
-    left: 39%;
+    left: 37%;
     color: #0d1516;
-    font-size: 15px;
+    font-size: 1.2vw;
     text-decoration: none;
 
 }
