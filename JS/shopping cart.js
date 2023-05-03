@@ -215,3 +215,8 @@ function remove_element2()
     }
     
 }
+
+function myFunction() {
+    var element = document.body;
+    element.classList.toggle("dark-mode");
+ }

@@ -7,7 +7,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="CSS/shopping cart.css">
     <script src="JS/shopping cart.js"></script>
-    <link rel="shortcut icon" type="image/jpg" href="photos/lotus.ico" />
+    <link rel="shortcut icon" type="image/jpg" href="photos/thebluelogo.png" />
     <title>shopping cart</title>
 
 </head>
@@ -16,18 +16,18 @@
 
     <div class="Cart-Container">
         <div class="Header">
-            <h3 class="Heading">Shopping Cart</h3>
+            <h3 class="Heading , tooltip"><span class="tooltiptext">shopping cart</span>Shopping Cart</h3>
             <button class="Action" onclick="remove_all()">Remove all</button>
             <!-- <h5 class="Action">Remove all</h5> -->
         </div>
         <div class="Cart-Items">
             <div class="image-box">
-                <img src="photos/face.jpg" style={{ height="120px" }} />
+                <img src="photos/face.jpg" alt="face" style="height: 120px;" />
             </div>
             <div class="about">
                 <h1 class="title">portrait design</h1>
                 <h3 class="subtitle">artist:mohy elshrkawy</h3>
-                <img src="photos/street.jpg" style={{ height="30px" }}/>
+                <img src="photos/street.jpg" alt="street" style="height: 30px;"/>
             </div>
             <div class="counter"></div>
             <div class="prices"></div>
@@ -49,12 +49,12 @@
 
         <div class="Cart-Items2">
             <div class="image-box">
-                <img src="photos/gifts.jpg" style={{ height="120px" }} />
+                <img src="photos/gifts.jpg" alt="gifts" style="height: 120px;" />
             </div>
             <div class="about">
                 <h1 class="title">Gift Box</h1>
                 <h3 class="subtitle">artist:sh3ban 3bd elrhem</h3>
-                <img src="photos/gift shop.jpg" style={{ height="30px" }}/>
+                <img src="photos/gift shop.jpg" alt="giftshop" style="height: 30px;"/>
             </div>
             <div class="counter"></div>
             <div class="prices"></div>
@@ -85,6 +85,7 @@
                 <div class="total-amount">550</div>
             </div>
             <button class="button">Checkout</button>
+            <!-- <button onclick="myFunction()">Toggle dark mode</button> -->
         </div>
     </div>
 </body>

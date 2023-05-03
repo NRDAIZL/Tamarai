@@ -3,7 +3,7 @@ const createFooter = () => {
 
     footer.innerHTML = `
     <div class="footer-content">
-        <img src="photos/lotus.ico" class="logo" alt="Thamaraii Logo">
+        <img src="photos/thewhiteicon.png" class="logo" alt="Thamaraii Logo" style="width:175px;height:175px;">
         <div class="footer-ul-container">
             <ul class="category">
                 <li class="category-title">Men</li>
@@ -38,7 +38,7 @@ const createFooter = () => {
             </ul> -->
         </div>
     </div>
-    <p class="footer-title">Tamarii</p>
+    <h1 style="text-align: left;" class="footer-title">Tamarai</h1>
     <p class="info">We could not have reached this milestone of achievement without you.</p>
     <p class="info">Support Emails - help@tamarai.com, support@tamarai.com</p>
     <p class="info">Telephone - 0123456789</p>
@@ -56,7 +56,7 @@ const createFooter = () => {
             </div>
         </div>
     </div>
-    <p class="footer-credit">Thamaraii, Best Online store.</p>
+    <p class="footer-credit">Tamarai, Best Online store.</p>
     `;
 
 }

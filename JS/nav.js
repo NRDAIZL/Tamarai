@@ -2,13 +2,14 @@ const creatNav = () => {
     let nav = document.querySelector('.navbar');
     nav.innerHTML = `
 \        <div class="nav">
-            <img src="photos/icons8-lotus-100.png" class="brand-logo" alt="Tamarii Logo">
+            <img src="photos/thebluelogo.png" class="brand-logo" alt="Tamarii Logo" >
+            <span class = "title"><h1>Tamarai</h1></span>
             <div class="nav_items">
                 <div class="search">
                     <div class="box">
                         <input type="text" placeholder="Search...">
                         <a href="#">
-                            <i class="fas"><img src="photos/search.png"></i>
+                            <i class="fas"><img src="photos/search.png" style="width:18px;height:18px"></i>
                         </a>
                     </div>
                     <!-- <form class="search-box">
@@ -17,8 +18,8 @@ const creatNav = () => {
                     </form> -->
                     <!-- <input type="text" class="search-bar" placeholder="Search for a shop, product !">
                     <button class="search-btn">Search</button> -->
-                    <a href=""><img src="photos/user2.0.jpg" alt="user"></a>
-                    <a href="shopping cart.html"><img src="photos/shoppingCart.jpg" alt="cart"></a>
+                    <a href="profile.html"><img src="photos/user2.0.png" alt="user"></a>
+                    <a href="shopping cart.html"><img src="photos/shoppingCart.png" alt="cart"></a>
                     <a href="wishList.html"><img src="photos/wishlist.png" alt="Wishlist"></a>
                     <!--<a href="chat.html"><img src="photos/chat.png" alt="chat"></a>-->
                 </div>

@@ -25,7 +25,7 @@ body {
     top: -50%;
     width: 100%;
     height: 100%;
-    background: #ffce00;
+    background: #d6bd91;
     transform: skewY(345deg);
     transition: 0.5s;
 }
@@ -102,7 +102,7 @@ body {
     margin-top: 15px;
     color: #000000;
     text-decoration: none;
-    background: #ffce00;
+    background: #d6bd91;
     border-radius: 30px;
     text-transform: uppercase;
     letter-spacing: 1px;

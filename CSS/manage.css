@@ -2,7 +2,7 @@
      grid-row: 1/end;
      grid-column: 2;
      border-radius: 5px;
-     background-color: #FFF7D6;
+     background-color: #d6bd91;
      overflow-y: scroll;
      overflow-x: hidden;
      padding: 20px;
@@ -68,7 +68,7 @@
      background-color: #1C4C56;
      border-radius: 8px;
      box-sizing: border-box;
-     color: #ECFCFF;
+     color: #d6bd91;
      cursor: pointer;
      display: inline-block;
      font-family: Circular, -apple-system, BlinkMacSystemFont, Roboto, "Helvetica Neue", sans-serif;
@@ -82,14 +82,14 @@
      text-align: center;
      text-decoration: none;
      touch-action: manipulation;
-     transition: box-shadow.2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
-     user-select: none;
+     -o-transition: box-shadow.2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
      -webkit-user-select: none;
+     user-select: none;
      width: auto;
      -webkit-transition: box-shadow.2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
      -moz-transition: box-shadow.2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
      -ms-transition: box-shadow.2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
-     -o-transition: box-shadow.2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
+     transition: box-shadow.2s, -ms-transform .1s, -webkit-transform .1s, transform .1s;
  }
  
  .buttons {

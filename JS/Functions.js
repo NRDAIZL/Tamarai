@@ -46,6 +46,16 @@ function ValidateCode(field) {
     return true;
   }
 }
+function Validation(form) 
+{
+  if (ValidateName(form.username.value.trim()) && ValidatePass(form.password.value.trim()) && ValidateMail(form.email.value.trim())) 
+  {
+    document.getElementById('Success').style.display = 'block';
+  }
+  else {
+    return false;
+  }
+}
 
 function USValidation(form) 
 {
@@ -59,7 +69,7 @@ function USValidation(form)
 }
 function ASValidation(form) 
 {
-  if (ValidateCode(form.admin-code.value.trim()) && ValidateName(form.username.value.trim()) && ValidatePass(form.password.value.trim()) ) 
+  if (ValidateCode(form.admincode.value.trim()) && ValidateName(form.username.value.trim()) && ValidatePass(form.password.value.trim()) ) 
   {
     return true;
   }
