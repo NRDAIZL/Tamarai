@@ -19,3 +19,21 @@ productImages.forEach((item, i) => {
         activeImageSlide = i;
     })
 })
+
+// Size Buttons
+
+// All size buttons
+const sizeBtns = document.querySelectorAll('.size-radio-btn');
+// Current selected button 
+let checkedBtn = 0;
+
+sizeBtns.forEach((item, i) => {
+    item.add('click', () => {
+        // Removing check class from default button
+        sizeBtns[checkedBtn].classList.remove('check');
+        // Adding check classto clicked button
+        item.classList.add('check');
+        // Updating variable
+        checkedBtn = i;
+    })
+})
