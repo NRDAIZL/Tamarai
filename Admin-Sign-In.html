@@ -12,8 +12,10 @@
 </head>
 
 <body>
-    <img src="photos/thebluelogo.png" alt="logz" style="width:75px;height:75px;">
+        <img src="photos/thebluelogo.png" alt="logz" class="logo" style="width:5.4%;">
+
     <div class="Alogin">
+        
         <div class="Alogger">
             <h2>Sign in to your account</h2>
             <div class="words">or choose your user</div>
@@ -25,14 +27,17 @@
         </div>
         <form action="dashboard.html" method="get" class="form" onsubmit="return ASValidation(this)">
             <div class="codey" style="top: 47%;">
+                <label for="codey"> code </label>
                 <input id="admincode" type="text" placeholder="admin code"> <br>
                 <span id="Aerror"></span>
             </div>
             <div class="users" style="top: 55%;">
+                <label for="username"> username </label>
                 <input id="username" type="text" placeholder="username"> <br>
                 <span id="Uerror"></span>
             </div>
             <div class="passes" style="top: 63%;">
+                <label for="password"> password </label>
                 <input id="password" type="password" placeholder="password"> <br>
                 <span id="Perror"></span>
             </div>

@@ -12,7 +12,7 @@
 
     <body>
         <div class ="VSbk">
-            <img src="photos/thewhiteicon.png" alt="logz" style="width:75px;height:75px;">
+                <img src="photos/thewhiteicon.png" alt="logz" class="logo">
             <h3 class = "welcomes">Welcome Back!</h3>
             <div class = "wordings"> Missed us? Hop right in,<br>Sign in now! </div>
             <a href="Vendor-Sign-In.html"><button class = "VSbutton" style="top: 65%; left: 35%;">Sign In</button></a>
@@ -28,18 +28,22 @@
                 </div>
                 <form action="javascript:void(0)" method="get" onsubmit="return Validation(this)">
                     <div class = "users" style="left: 15%;">
+                        <label for="username"> username </label>
                         <input id = "username" type="text" placeholder="username"> <br>
                         <span id = "Uerror"></span>
                     </div>
                     <div class="passes" style="left: 15%;">
+                        <label for="password"> password </label>
                         <input id = "password" type="password" placeholder="password"> <br>
                         <span id = "Perror"></span>
                     </div>
-                    <div class = "emai" style="left: 55%;">
+                    <div class = "email" style="left: 55%;">
+                        <label for="email"> email </label>
                         <input id = "email" type="email" placeholder="example@mail.com"> <br>
                         <span id = "Eerror"></span>
                     </div>
                     <div class = "deb" style="left: 55%;">
+                        <label for="deb"> date </label>
                         <input id = "date-of-birth" type="date" placeholder="date"> <br>
                     </div>
                     <div class="successfully" id="Success">Registration Successful!

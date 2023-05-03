@@ -13,9 +13,7 @@
 
 <body>
     <div class="Vlogin">
-        <div class="logo">
-            <img src="photos/thebluelogo.png" alt="logz" style="width:75px;height:75px;">
-        </div>
+            <img src="photos/thebluelogo.png" alt="logz" class="logo">
         <div class="Vlogger">
             <h2>Sign in to your account</h2>
             <div class="words">or choose your user</div>
@@ -25,14 +23,16 @@
 
             <div class="line"></div>
         </div>
-        <form action="manage-products.html" method="get" class="form" onsubmit="return Validation(this)">
+        <form action="manage-products.html" method="get" class="form" onsubmit="return USValidation(this)">
             <div class="users">
+                <label for="username"> username </label>
                 <input id="username" type="text" placeholder="username"> <br>
-                <span class="Uerror"></span>
+                <span id="Uerror"></span>
             </div>
             <div class="passes">
+                <label for="password"> password </label>
                 <input id="password" type="password" placeholder="password"> <br>
-                <span class="Perror"></span>
+                <span id="Perror"></span>
             </div>
             <span href="#" id="fyp">forgot your password?</span>
             <button class="VSbutton" type="submit" id="submit">Sign in</button>

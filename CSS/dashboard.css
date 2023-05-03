@@ -16,12 +16,12 @@
   font-family: "Poppins", sans-serif;
 }
 :root {
-  --background-color1: #89bbbb;
-  --background-color2: #89bbbb;
-  --background-color3: #89bbbb;
-  --background-color4: #d6bd91;
+  --background-color1: #d6bd91;
+  --background-color2: #d6bd91;
+  --background-color3: #d6bd91;
+  --background-color4: #ffff;
   --primary-color: #1C4C56;
-  --secondary-color: #89bbbb;
+  --secondary-color: #d6bd91  ;
   --Border-color: #1C4C56;
   --one-use-color: #1C4C56;
   --two-use-color: #1C4C56;
@@ -39,7 +39,7 @@ header {
   background-color: var(--background-color1);
   position: fixed;
   z-index: 100;
-  box-shadow: 1px 1px 15px #89bbbb;
+  box-shadow: 1px 1px 15px #1C4C56;
   display: flex;
   justify-content: space-between;
   align-items: center;
@@ -112,7 +112,7 @@ header {
 .dp {
   height: 40px;
   width: 40px;
-  background-color: #626262;
+  background-color: #1C4C56;
   border-radius: 50%;
   display: flex;
   align-items: center;
@@ -140,13 +140,13 @@ header {
  
 .main::-webkit-scrollbar-thumb {
   background-image:
-        linear-gradient(to bottom,#89bbbb, #89bbbb);
+        linear-gradient(to bottom,#1C4C56, #1C4C56);
 }
 .main::-webkit-scrollbar {
   width: 5px;
 }
 .main::-webkit-scrollbar-track {
-  background-color: #9e9e9eb2;
+  background-color: #83a7b6;
 }
  
 .box-container {
@@ -163,7 +163,7 @@ header {
   position: absolute;
   top: 0px;
   left: 00;
-  box-shadow: 1px 1px 10px rgba(198, 189, 248, 0.825);
+  box-shadow: 1px 1px 10px #c6bdf8d2;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
@@ -210,13 +210,13 @@ header {
 }
  
 .option1 {
-  border-left: 5px solid #010058af;
+  /* border-left: 5px solid #010058af; */
   background-color: var(--Border-color);
   color: white;
   cursor: pointer;
 }
 .option1:hover {
-  border-left: 5px solid #010058af;
+  /* border-left: 5px solid #010058af; */
   background-color: var(--Border-color);
 }
 .box {
@@ -335,7 +335,7 @@ header {
 .label-tag {
   width: 100px;
   text-align: center;
-  background-color: rgb(14, 82, 109);
+  background-color: #1c4c56;
   color: white;
   border-radius: 4px;
 }
