@@ -120,7 +120,20 @@
     color: #d6bd91;
 }
 
+.detail-des {
+    padding: 0 10vw;
+    text-transform: capitalize;
+}
 
+.heading {
+    font-size: 30px;
+    margin-bottom: 30px;
+}
+
+.des {
+    color: #1C4C56;
+    line-height: 25px;
+}
 
 /*newnew
 #1C4C56
