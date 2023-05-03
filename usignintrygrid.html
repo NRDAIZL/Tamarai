@@ -1,0 +1,193 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="usingintrygrid.css">
+
+    <title>
+        User Login
+    </title>
+    <link rel="shortcut icon" type="image/jpg" href="photos/lotus.ico">
+    <style>
+        * {
+            padding: 0%;
+            margin: 0%;
+            overflow: hidden;
+        }
+        
+        .grid-container {
+            height: 100vh;
+            width: 100vw;
+            display: grid;
+            grid-template-rows: 70px 1fr 30px;
+            grid-template-columns: 1fr;
+        }
+        
+        .mainbody {
+            grid-row-start: 2;
+            width: 100vw;
+            display: grid;
+            grid-template-columns: 6fr 4fr;
+            grid-template-rows: 1fr;
+        }
+        
+        .header {
+            width: 100vw;
+        }
+        
+        .Ulogin {
+            grid-column: 1/1;
+            grid-row: 1/end;
+            display: grid;
+            grid-template-rows: 4fr 5fr;
+        }
+        
+        .URegbk {
+            grid-row: 1/end;
+            color: white;
+            grid-column: 2;
+            background-position-y: 100%;
+            /* Set height to 100% */
+        }
+        
+        .Ulogin>* {
+            /*   border-color: black;
+            border-style: solid;*/
+            text-align: center;
+        }
+        
+        .URegbk>* {
+            /*   border-color: black;
+            border-style: solid;*/
+            text-align: center;
+        }
+        /*   * {
+            scrollbar-width: thin;
+            scrollbar-color: #1C4C56 #ffffff;
+        }
+        // Works on Chrome, Edge, and Safari 
+        
+        *::-webkit-scrollbar {
+            width: 12px;
+        }
+        
+        *::-webkit-scrollbar-track {
+            background: #ffffff;
+        }
+        
+        *::-webkit-scrollbar-thumb {
+            background-color: #1C4C56;
+            border-radius: 20px;
+            border: 3px solid #ffffff;
+        }*/
+        
+        .Ulogger {
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto auto;
+            grid-row-gap: 10px;
+        }
+        
+        .icons-container {
+            display: flex;
+            flex-flow: row nowrap;
+            align-items: flex-end;
+            justify-content: center;
+        }
+        
+        .line {
+            margin: 0 auto;
+        }
+        
+        .use,
+        .adds,
+        .vend {
+            margin-right: 10px;
+            align-items: center;
+        }
+        
+        form {
+            /*/  display: flex;
+            flex-flow: row nowrap;
+            align-items: center;
+            justify-content: flex-start;
+            flex-direction: column;
+            flex-wrap: nowrap;*/
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto auto;
+            grid-row-gap: 10px;
+            justify-items: center;
+        }
+        
+        .URegbk {
+            display: grid;
+            grid-template-columns: auto;
+            grid-template-rows: auto auto auto;
+            grid-row-gap: 10px;
+            justify-items: center;
+            align-content: center;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="grid-container">
+        <div class="header">
+            <div class="logo">
+                <img src="photos/icons8-lotus-100.png" alt="logz" style="width:75px;height:75px;">
+            </div>
+        </div>
+        <div class="mainbody">
+            <div class="Ulogin">
+
+                <div class="Ulogger">
+                    <h2>Sign in to your account</h2>
+                    <div class="words">or choose your user</div>
+                    <div class="icons-container">
+                        <span class="use" style="top: 28%;"><i href="#"><img src='photos/user.png' alt="using" /></i></span>
+                        <a href="Admin-Sign-In.html"><span class="adds"><i href="#"><img src='photos/settings.png'
+                                    alt="sets" /></i></span></a>
+                        <a href="Vendor-Sign-In.html"><span class="vend"><i href="#"><img src='photos/shopping-bag.png'
+                                    alt="sells" /></i></span></a>
+                    </div>
+                    <div class="line"></div>
+                </div>
+
+                <div class="formlogin">
+                    <form action="User-Homepage.html" method="get" class="form" onsubmit="return USValidation(this)">
+                        <div class="users">
+                            <!-- <label for="username"> username </label> -->
+                            <input id="username" type="text" placeholder="username"> <br>
+                            <span id="Uerror">error</span>
+                        </div>
+                        <div class="passes">
+                            <!-- <label for="password"> password </label> -->
+                            <input id="password" type="password" placeholder="password"> <br>
+                            <span id="Perror">error</span>
+                        </div>
+                        <span href="#" id="fyp">forgot your password?</span>
+                        <br>
+                        <button class="USbutton" type="submit" id="submit">Sign in</button>
+                    </form>
+                </div>
+
+            </div>
+            <div class="URegbk">
+                <h3 class="welcomes">Welcome Aboard!</h3>
+                <div class="wordings"> You new here?<br> Experience all <br> the fun, Join us now! </div>
+                <a href="User-Register.html"><button class="URbutton">Sign Up</button></a>
+            </div>
+        </div>
+        <div class=" footer ">
+
+        </div>
+
+        <script src="JS/Functions.js">
+        </script>
+    </div>
+</body>
+
+</html>
