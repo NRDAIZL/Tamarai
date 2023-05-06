@@ -73,10 +73,15 @@ body {
     font-weight: bold;
 }
 
-.content .four0four-msg .oops {
-    color: rgb(228, 83, 0);
+a {
+    color: #fff7d6;
+    /* border-radius: 50%; */
+    /* padding-top: 25px; */
+    margin: 90px;
+    /* background-color: #007a99;
+    border-collapse: separate;
+    border-spacing: 15px 50px; */
 }
-
 
 /*newnew
 #1C4C56
