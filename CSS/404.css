@@ -63,15 +63,20 @@ body {
     text-align: center;
 }
 
+.content div {
+    display: inline-block;
+}
+
 .content .four0four-title {
     color: #1C4C56;
     font-size: 50px;
     font-weight: bold;
 }
 
-/* <p class="four0four-msg"><p class="oops">Oooooops!</p> Looks like you are lost</p>
-   <p class="msg2">Well, this is awkward, the page you were trying to view does not exist.</p>
-   <p>Get yourself HOME</p> */
+.content .four0four-msg .oops {
+    color: rgb(228, 83, 0);
+}
+
 
 /*newnew
 #1C4C56
