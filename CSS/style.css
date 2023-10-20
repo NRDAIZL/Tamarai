@@ -196,20 +196,9 @@ nav {
 
 /* navbar */
 /* home */
-.container {
-    display: grid;
-    grid-template-columns: 1fr 1fr;
-    height: 100%;
-    max-height: 950px;
-    width: 1500px;
-    margin: auto;
-}
 
-.banner{
-    margin: 100px;
-    display: flex;
-    margin-top:100px ;
-}
+
+
 .left-col,.right-col{
 flex-basis: 50%;
 }
@@ -231,23 +220,8 @@ color: #d6bd91;
     color:#0d1516;
     margin: 50px 0;
 }
-.btn button{
-    padding: 10px 40px;
-    margin-right: 30px;
-    outline:none;
-    border: 2px solid #d6bd91;
-    -o-border-radius: 20px;
-    cursor: pointer;
-    color: #d6bd91;
-    background: #fff;
-    -webkit-border-radius: 20px;
-    -moz-border-radius: 20px;
-    -ms-border-radius: 20px;
-    border-radius: 20px;
-}
-.btn{
-    margin-bottom: 45px;
-}
+
+
 .social-icons{
     width: 250px;
     text-align: center;
